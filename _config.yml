@@ -11,9 +11,9 @@ title                    : "Thomas Harvey"
 title_separator          : "-"
 name                     : &name "Thomas Harvey"
 description              : &description "Master's student at Harvard-Smithsonian Center for Astrophysics and University of Southampton"
-url                      : https://tharvey303.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://www.thomas-harvey.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "tHarvey303/academicpages.github.io"
+repository               : "tHarvey303/thomas-harvey.com"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
