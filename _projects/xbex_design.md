@@ -1,7 +1,7 @@
 ---
 title: "XBEX: X-Ray Background EXplorer - Telescope Design Project"
 collection: projects
-permalink: /projects/2015-10-01-paper-title-number-3
+permalink: /projects/xbex_design
 excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
 date: 2020-07-01
 #venue: 'Journal 1'
