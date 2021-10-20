@@ -1,11 +1,8 @@
 ---
 permalink: /research/
 title: "My Research"
-excerpt: "About me"
 author_profile: true
-#redirect_from: 
- #- /research/
- #- /research.html
+layout: archive
 ---
 {% include base_path %}
 In progress
