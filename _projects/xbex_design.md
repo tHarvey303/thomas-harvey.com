@@ -2,7 +2,7 @@
 title: "XBEX: X-Ray Background EXplorer - Telescope Design Project"
 collection: projects
 permalink: /projects/xbex_design
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
+excerpt: 'Design for a x-ray 0.5-200 keV coded mask imaging satellite.'
 date: 2020-07-01
 #venue: 'Journal 1'
 #paperurl: 'http://academicpages.github.io/files/paper3.pdf'
