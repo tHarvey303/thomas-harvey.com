@@ -8,7 +8,7 @@ date: 2020-07-01
 ---
 This project was a design proposal for a > 10 keV x-ray telescope. It was supposed to be a group project conducted over a single week in Tenerife, but due to the Covid pandemic the trip was cancelled and the project became an individual report. 
 
-<h3>Explanation<\h3>
+<h3> Explanation <\h3>
  
 X-rays are photons like the light we seen, but they have a shorter wavelength and are hence more energetic. X-ray telescopes have to be above the Earth's atmosphere, either on a high altitude balloon, or on a satellite. This is because (luckily for us fleshy humans!) the atmosphere protects us from energetic x-rays and gamma rays, which would otherwise rip our cells apart. 
  
