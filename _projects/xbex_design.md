@@ -12,6 +12,8 @@ This project was a design proposal for a > 10 keV x-ray telescope. It was suppos
 
 
 ![XBEX](http://www.thomas-harvey.com/images/xbex/design.PNG)
+ Figure showing design of XBEX satellite from 3 sides. Coded mask and detector
+distance and sizes are shown.{: .notice}
 
 XBEX is a hard x-ray all-sky survey mission that will be sensitive across the 10-300keV range for imaging
 and spectroscopy. It will primarily investigate the x-ray background, with the mission of resolving many
@@ -53,7 +55,7 @@ high enough to remain in orbit for its nominal 5 year mission without excessive 
 avoid the South Atlantic Anomaly (SAA). The science payload has a mass of ∼3560kg. The 5 year mission
 will consist of a 3 year all-sky survey, and 2 years of specific pointings and time for guest observers.
 
-![XBEX](http://www.thomas-harvey.com/images/xbex/tsCompare.PNG)
+![XBEX](http://www.thomas-harvey.com/images/xbex/tsCompare.png)
 
 [Download paper here](http://www.thomas-harvey.com/files/XBEX_Telescope_Report.pdf)
 
