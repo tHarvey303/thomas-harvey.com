@@ -2,14 +2,13 @@
 title: "XBEX: X-Ray Background EXplorer - Telescope Design Project"
 collection: projects
 permalink: /projects/xbex_design
-excerpt: 'Design for a x-ray 0.5-200 keV coded mask imaging satellite.'
+excerpt: 'Design for a x-ray 10-300 keV coded mask imaging satellite.'
 date: 2020-07-01
-#venue: 'Journal 1'
-#paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-#citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+#paperurl: 'http://www.thomas-harvey.com/files/XBEX_Telescope_Report.pdf'
 ---
-This paper is about the number 3. The number 4 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper3.pdf)
+[Download paper here](http://www.thomas-harvey.com/files/XBEX_Telescope_Report.pdf)
 
-Recommended citation: Your Name, You. (2015). "Paper Title Number 3." <i>Journal 1</i>. 1(3).
+
+#venue: 'Journal 1'
+#citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).
