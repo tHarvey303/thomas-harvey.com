@@ -17,8 +17,10 @@ Because x-rays are so energetic, it is hard to build a telescope that can focus 
 For this project I instead opted to use a technique called a coded mask. It follows a similar principle to a pinhole camera, where a small hole is punched in an otherwise opaque mask, and an image of the sky is projected on the wall behind the hole. If you replace the wall with an array of pixels, a bit like in a camera sensor but specially designed to detect x-rays instead of visible light, and you stab loads of holes into the mask randomly until half of the area of the mask is a hole (You can do a bit better than randomly, but many early x-ray telescopes used entirely random masks and worked fine). Then you can imagine you have lots of images of the sky projected onto your detector, so it would look quite messy! This is where some math comes in, but the details are not important. All you need to know is that if you know what the mask looks like you can reconstruct what the sky probably looked like by a process called convolution. This lets you take a picture of the sky, and by playing with the size of the pixels/mask holes, the distance between the mask and detector you can choose how much of the sky the telescope can "see". 
  
  ![XBEX](http://www.thomas-harvey.com/images/xbex/design.PNG)
-Figure showing design of XBEX satellite from 3 sides. Coded mask and detector
-distance and sizes are shown.{: .notice}
+<p> Figure showing design of XBEX satellite from 3 sides. Coded mask and detector
+distance and sizes are shown.
+ {: .notice} 
+</p>
  
 I wanted my telescope to look at lots of the sky, but also be able to tell precisely where the x-rays were coming from, which is normally a trade-off we have to make. You can't normally have your cake and eat it! I managed to get around this somewhat by having perhaps optimistically small pixels, due to advances in manufacturing processes, which meant at least in theory my telescope can see the whole sky every 3 days, and still be able to considerably beat previous missions in source positional accuracy. X-Ray telescopes are a lot worse at this than optical telescopes, so we often can't tell which of many nearby objects we see in a picture is actually emitting the x-rays.
  
