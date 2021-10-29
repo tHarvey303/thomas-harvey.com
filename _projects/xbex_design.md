@@ -13,14 +13,14 @@ This project was a design proposal for a > 10 keV x-ray telescope. It was suppos
 X-rays are photons like the light we see, but they have a shorter wavelength and are hence more energetic. X-ray telescopes have to be above the Earth's atmosphere, either on a high altitude balloon, or on a satellite. This is because (luckily for us fleshy humans!) the atmosphere protects us from energetic x-rays and gamma rays, which would otherwise rip our cells apart. 
  
 Because x-rays are so energetic, it is hard to build a telescope that can focus them. Telescopes like Chandra and Nu-STAR use many concentric rings of dense mirrors, each of which gives the photons only a very small nudge. X-rays pass straight through any lens angled at more than a (small) critical angle to the direction of the incoming x-rays. The maximum angle of these lenses gets smaller and smaller as the x-ray energy increases, meaning that the telescope must be longer and longer! There are obvious size constraints when designing a satellite that has to fit into the nose of a rocket, so we can only build focusing x-ray telescopes for a certain energy range.
- 
-For this project I instead opted to use a technique called a coded mask. It follows a similar principle to a pinhole camera, where a small hole is punched in an otherwise opaque mask, and an image of the sky is projected on the wall behind the hole. If you replace the wall with an array of pixels, a bit like in a camera sensor but specially designed to detect x-rays instead of visible light, and you stab loads of holes into the mask randomly until half of the area of the mask is a hole (You can do a bit better than randomly, but many early x-ray telescopes used entirely random masks and worked fine). Then you can imagine you have lots of images of the sky projected onto your detector, so it would look quite messy! This is where some math comes in, but the details are not important. All you need to know is that if you know what the mask looks like you can reconstruct what the sky probably looked like by a process called convolution. This lets you take a picture of the sky, and by playing with the size of the pixels/mask holes, the distance between the mask and detector you can choose how much of the sky the telescope can "see". 
- 
- ![XBEX](http://www.thomas-harvey.com/images/xbex/design.PNG)
-<p> Figure showing design of XBEX satellite from 3 sides. Coded mask and detector
+
+  ![XBEX](http://www.thomas-harvey.com/images/xbex/design.PNG)
+<h5> Figure showing design of XBEX satellite from 3 sides. Coded mask and detector
 distance and sizes are shown.
- {: .notice} 
-</p>
+</h5>
+For this project I instead opted to use a design known as a coded mask. It follows a similar principle to a pinhole camera, where a small hole is punched in an otherwise opaque mask, and an image of the sky is projected on the wall behind the hole. If you replace the wall with an array of pixels, a bit like in a camera sensor but specially designed to detect x-rays instead of visible light, and you stab loads of holes into the mask randomly until half of the area of the mask is a hole (You can do a bit better than randomly, but many early x-ray telescopes used entirely random masks and worked fine). Then you can imagine you have lots of images of the sky projected onto your detector, so it would look quite messy! This is where some math comes in, but the details are not important. All you need to know is that if you know what the mask looks like you can reconstruct what the sky probably looked like by a process called convolution. This lets you take a picture of the sky, and by playing with the size of the pixels/mask holes, the distance between the mask and detector you can choose how much of the sky the telescope can "see". 
+ 
+
  
 I wanted my telescope to look at lots of the sky, but also be able to tell precisely where the x-rays were coming from, which is normally a trade-off we have to make. You can't normally have your cake and eat it! I managed to get around this somewhat by having perhaps optimistically small pixels, due to advances in manufacturing processes, which meant at least in theory my telescope can see the whole sky every 3 days, and still be able to considerably beat previous missions in source positional accuracy. X-Ray telescopes are a lot worse at this than optical telescopes, so we often can't tell which of many nearby objects we see in a picture is actually emitting the x-rays.
  
@@ -74,6 +74,7 @@ avoid the South Atlantic Anomaly (SAA). The science payload has a mass of ∼356
 will consist of a 3 year all-sky survey, and 2 years of specific pointings and time for guest observers.
 
 ![XBEX](http://www.thomas-harvey.com/images/xbex/tsCompare.png)
+<h5This plot shows the relative sensitivities of XBEX and other actual missions at different energies. You can see it isn't as sensitive as NuSTAR, but it does extend to much higher energies which currently isn't posible with grazing-incidence telescopes like Nu-STAR. </h5>
 
 [Download paper here](http://www.thomas-harvey.com/files/XBEX_Telescope_Report.pdf)
 
