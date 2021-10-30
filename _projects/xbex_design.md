@@ -10,7 +10,7 @@ This project was a design proposal for a > 10 keV x-ray telescope. It was suppos
 
 <h3> Explanation </h3>
  
-X-rays are photons like the light we see, but they have a shorter wavelength and are hence more energetic. X-ray telescopes have to be above the Earth's atmosphere, either on a high altitude balloon, or on a satellite. This is because (luckily for us fleshy humans!) the atmosphere protects us from energetic x-rays and gamma rays, which would otherwise rip our cells apart. 
+X-rays are photons just like visible light, but they have a shorter wavelength and are therfore much more energetic! X-ray telescopes have to be above the Earth's atmosphere, either on a high altitude balloon, or on a satellite. This is because (luckily for us fleshy humans!) the atmosphere protects us from energetic x-rays and gamma rays, which would otherwise rip our cells apart. 
  
 Because x-rays are so energetic, it is hard to build a telescope that can focus them. Telescopes like Chandra and Nu-STAR use many concentric rings of dense mirrors, each of which gives the photons only a very small nudge. X-rays pass straight through any lens angled at more than a (small) critical angle to the direction of the incoming x-rays. The maximum angle of these lenses gets smaller and smaller as the x-ray energy increases, meaning that the telescope must be longer and longer! There are obvious size constraints when designing a satellite that has to fit into the nose of a rocket, so we can only build focusing x-ray telescopes for a certain energy range.
 
