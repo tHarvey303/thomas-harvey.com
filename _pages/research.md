@@ -16,7 +16,7 @@ Summary
 [NGC_6972_Hubble](http://www.thomas-harvey.com/images/ngc597_hubble.jpg)
 <h4> AAS Abstract </h4>
 
-<h5> Signatures of AGN feedback in the spectacular extended emission line region of NGC 5972 </h6>
+<h5> Signatures of AGN feedback in the spectacular extended emission line region of NGC 5972 </h5>
 
 <i>T. Harvey, W. Maksym, W. Keel</i>
 
