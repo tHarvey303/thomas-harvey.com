@@ -9,16 +9,22 @@ redirect_from:
 
 {% include base_path %}
 
+
+Download my full CV as a PDF [here](http://www.thomas-harvey.com/files/CV_Academic.pdf).
+
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* MPhys Astrophysics with a Year Abroad - University of Southampton, <i>September 2018 - July 2022 (expected)</i>
+  * Undertaking a research year at the Harvard-Smithsonian Center for Astrophysics in Cambridge, MA.
+  *  Achieved a current degree average 88.9\% - achieving best in first year and selection onto the Year Abroad program as one of the top five students in third year. 
+* Guernsey Grammar School and Sixth Form Centre, <i> September 2012 - June 2018 </i>
+  * <b>A Levels:</b>  Physics: A*, Further Maths: A, Maths: A, Computer Science (AS): B
+  * <b>GCSE's:</b> 5 A*'s, 6 A's and 1 B
 
-Work experience
+Research Experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
+* Harvard-Smithsonian Center for Astrophysics (CfA), <i>Sept 2021 - May 2022</i>
+  * Researching AGN feedback with\textbf{ Dr. W. Peter Maksym} in\textbf{ Dr. P. Fabbiano's} research group. My research focuses on the role of the AGN, jets and winds in exciting x-ray emission from gas clouds within NGC 5972, including a large extended line emission region. See [here](/research/)
   * Duties included: Tagging issues
   * Supervisor: Professor Git
 
