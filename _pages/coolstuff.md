@@ -41,7 +41,7 @@ The Heart Nebula is an <i>emission nebula</i>, which simply means it is a cloud 
 This 
   <h4>Sadr Region</h4>
 
-[Sadr](http://wwww.thomas-harvey.com/images/astrophotography/sadr.jpg)
+[Sadr](http://www.thomas-harvey.com/images/astrophotography/sadr.jpg)
 
 <h4>Solar Activity</h4>
 
@@ -49,7 +49,7 @@ This
 
 <h4>M13 Globular Cluster </h4>
 
-[M13](http://wwww.thomas-harvey.com/images/astrophotography/m13.jpg)
+[M13](http://www.thomas-harvey.com/images/astrophotography/m13.jpg)
 
 
 
