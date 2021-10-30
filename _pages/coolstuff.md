@@ -32,24 +32,33 @@ Thisimage of the Heart Nebula consists of 14 400s exposures, using a Canon 60Da 
 
 The Heart Nebula is an <i>emission nebula</i>, which simply means it is a cloud of gas that emits its own light! Some nebulae are instead reflection nebulae, which as the name suggests reflect light from another source such as a nearby star. <i>Dark Nebulae</i> are only seen by their outline blocking light from stars behind them. Some of the darker regions of the Heart Nebula are actually dust lanes where dust is obscuring the light.
 
+The Heart Nebbulae is driven by the cluster of bright stars at the center, which contains stars more than 50x the mass of the Sun! The Heart Nbulae is around 7500ly away, in the constellation Cassiopeia.
+
 ![Heart Nebula 2](http://wwww.thomas-harvey.com/images/astrophotography/heart2.jpg)
 
-<h4>Andromeda Galaxy</h4>
+<h4>Andromeda Galaxy <i>August 2019</i></h4>
 
-[Andromeda](http://wwww.thomas-harvey.com/images/astrophotography/andromeda.jpg)
+![Andromeda](http://wwww.thomas-harvey.com/images/astrophotography/andromeda.jpg)
+The Andromeda Galaxy is our nearest large galaxy, and in many ways is similar to our own Milky Way galaxy. They are both spiral galaxies, consisting of a flat disk of stars made up of several arms, and a central concentration of stars called a bulge. Many, like the Milky Way, also have a bar extending from the bulge to the spiral arms. Andromeda is actually larger than our galaxy, containing maybe as many as 1 trillion stars, and in a few billion years will actually collide with our galaxy!
 
-This 
-  <h4>Sadr Region</h4>
+This photo was taken by me and Anthony Nel, using a Skywatcher HEQ5 and Esprit 80ED telescope and consists of 19 120s images combined.
+  
+ <h4>Sadr Region <i>Sept 2019</i></h4>
 
-[Sadr](http://www.thomas-harvey.com/images/astrophotography/sadr.jpg)
+![Sadir](http://www.thomas-harvey.com/images/astrophotography/sadr.jpg)
 
-<h4>Solar Activity</h4>
+The star Sadir is at the center of the image, framed by complex nebulosity and dust lanes of the Milky Way. Sadir is part of the Cygnus-X molecular cloud which is part of a much larger molecular cloud complex. Cygnus-X is one of the richest known regions of star formation in the Galaxy and it contains as many as 800 distinct H II regions, a number of Wolf-Rayet and O3 stars and several OB associations.
+This has been processed to be true to colour, so the Ha is a subdued red color. It consits of 14 frames of 300s stacked together, using a Canon 60Da and a Skywatcher Esprit 80ED. Data collected by me and processed by Jean Dean.
 
-[The Sun](http://www.thomas-harvey.com/images/astrophotography/sadr.jpg)
+<h4>Solar Activity <i><June 2020</i></h4>
+
+![The Sun](http://www.thomas-harvey.com/images/astrophotography/sadr.jpg)
+
+This was taken with a Lunt, tilt and tune 60mm diameter solar scope which has a Ha filter. The camera was a ZWO ASI178 mono planetary camera. It was stacked in Autostakkert 3 and finished off in Photoshop. Processed by Jean Dean. A sunspot group and filament from the Sun is shown, as well as the granulation of the surface.
 
 <h4>M13 Globular Cluster </h4>
 
 [M13](http://www.thomas-harvey.com/images/astrophotography/m13.jpg)
-
+M13 is a globular cluster, which is a very dense spherical collection of old stars that all formed around the same time,There are many globular clusters in the Milky Way.
 
 
