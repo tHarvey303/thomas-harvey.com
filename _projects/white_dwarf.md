@@ -19,7 +19,7 @@ There is a difference depending on what the chemcical composition of the white d
 
 This image shows the track generated from the above image, with some measurements of actual white dwarfs overlaid. If you can accurately measure a white dwarf's mass and radius you can determine what type of white dwarf it is by where it falls on this track. You can see the white dwarf are normally less than 10,000 km in radius, which is comparable to that of the Earth, but they have a mass closer to that of the Sun! 
 
-![Image2](http://www.thomas-harvey.com/images/whitedwarf/whitedwarf_crit.png)
+![Image2](http://www.thomas-harvey.com/images/whitedwarf/white_dwarf_crit.png)
 
 Here you can see a comparison to more white dwarfs, which shows how accurate this relatively simple theory is at describing such complex objects!
 
