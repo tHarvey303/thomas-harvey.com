@@ -58,6 +58,6 @@ This was taken with a Lunt, tilt and tune 60mm diameter solar scope which has a 
 <h4>M13 Globular Cluster </h4>
 
 [M13](http://www.thomas-harvey.com/images/astrophotography/m13.jpg)
-M13 is a globular cluster, which is a very dense spherical collection of old stars that all formed around the same time,There are many globular clusters in the Milky Way.
+M13 is a globular cluster, which is a very dense spherical collection of old stars that all formed around the same time. There are many globular clusters in the Milky Way.
 
 
