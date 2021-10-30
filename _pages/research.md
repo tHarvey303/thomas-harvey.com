@@ -7,7 +7,7 @@ author_profile: true
 {% include base_path %}
 
 
-<h2>Summary <h2>
+<h2>Summary </h2>
 
 I'm currently doing research as part of the High-Energy Astrophysics Division (HEAD) of the Harvard-Smithsonian Center for Astrophysics. My supervisor is Dr. W. Peter Maksym, who is part of Dr. Pepi Fabbiano's research group. I study the interactions between AGN (supermassive central black holes) and their host galaxies, using data from across the electromagnetic spectrum. 
   
