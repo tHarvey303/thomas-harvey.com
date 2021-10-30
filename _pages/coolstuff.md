@@ -17,8 +17,7 @@ You can find a non-exhaustive collection of some images I've created, or collect
 
 
 <h4>Comet Neowise, <i>August 2020</i> </h4>
-
-![Comet Neowise](http://www.thomas-harvey.com/images/astrophotography/NEOWISE_small.png)
+<img src="http://www.thomas-harvey.com/images/astrophotography/NEOWISE_small.png" alt="comet neowise" maxwidth="500px"/>
 
 Comet Neowise was my first oppurtunity to photograph a comet that was visible to the naked eye. This photo was taken using a Canon 1100D and a 100mm f2.8 prime lens, mounted to a CEM25 mount. It is the sum of 29 150 second exposures, with the stars including from half of them. Due to the differeing motion of the comet and the background stars, the comet and the stars were seperated and processed seperately before being recombined.
 
@@ -28,11 +27,11 @@ Comets and lumps of ice and rocks left over from the formation of the solar syst
 
 ![Heart Nebula](http://www.thomas-harvey.com/images/astrophotography/heart.jpg)
 
-Thisimage of the Heart Nebula consists of 14 400s exposures, using a Canon 60Da and a Skywatcher Esprit 80ED with field flattener. The first one is edited by yours truly, and the second is the same data edited by Jean Dean, a more experienced astrophotographer and editor. You can see the difference practice makes in this hobby, and how much inidivudal style can come into it.
+This image of the Heart Nebula consists of 14 400s exposures, using a Canon 60Da and a Skywatcher Esprit 80ED with field flattener. The first one is edited by yours truly, and the second is the same data edited by Jean Dean, a more experienced astrophotographer and editor. You can see the difference practice makes in this hobby, and how much inidivudal style can come into it.
 
 The Heart Nebula is an <i>emission nebula</i>, which simply means it is a cloud of gas that emits its own light! Some nebulae are instead reflection nebulae, which as the name suggests reflect light from another source such as a nearby star. <i>Dark Nebulae</i> are only seen by their outline blocking light from stars behind them. Some of the darker regions of the Heart Nebula are actually dust lanes where dust is obscuring the light.
 
-The Heart Nebbulae is driven by the cluster of bright stars at the center, which contains stars more than 50x the mass of the Sun! The Heart Nbulae is around 7500ly away, in the constellation Cassiopeia.
+The Heart Nebula is driven by the cluster of bright stars at the center, which contains stars more than 50x the mass of the Sun! The Heart Nbulae is around 7500ly away, in the constellation Cassiopeia.
 
 ![Heart Nebula 2](http://wwww.thomas-harvey.com/images/astrophotography/heart2.jpg)
 
