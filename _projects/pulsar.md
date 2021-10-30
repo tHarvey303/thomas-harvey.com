@@ -1,4 +1,3 @@
-
 ---
 title: Fourier Analysis of a Suspected Pulsar"
 collection: projects
