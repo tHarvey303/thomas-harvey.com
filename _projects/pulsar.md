@@ -1,5 +1,5 @@
 ---
-title: Fourier Analysis of a Suspected Pulsar"
+title: "Fourier Analysis of a Suspected Pulsar"
 collection: projects
 permalink: /projects/pulsar
 excerpt: 'Using fourier techniques to find the fundamental frequency of a pulsar from IR emission.'
