@@ -23,7 +23,7 @@ Comet Neowise was my first oppurtunity to photograph a comet that was visible to
 
 Comets and lumps of ice and rocks left over from the formation of the solar system. They spent most of their time out beyond the orbits of the planets, in the Kuiper Belt and beyond, but their highly eccentric orbits sometimes bring them into the inner solar system. The heat from the Sun sublimates gas from the surface of the comet, creating tails which can stretch for a million miles! You can see 2 tails here, the blue straight one is the ion tail, which is made up of charged gas that are accelerated by the Sun's magnetic field and always points away from the Sun. The curved dust tail is made up of dust from the coma, which is the large "atmosphere" surrounding the comet due to the sublimation of the gas. 
 
-<h4>Heart Nebula <i>Sept 2019</i></h4>
+<h4>Heart Nebula, <i>Sept 2019</i></h4>
 
 ![Heart Nebula](http://www.thomas-harvey.com/images/astrophotography/heart.jpg)
 
@@ -35,23 +35,23 @@ The Heart Nebula is driven by the cluster of bright stars at the center, which c
 
 ![Heart Nebula 2](http://wwww.thomas-harvey.com/images/astrophotography/heart2.jpg)
 
-<h4>Andromeda Galaxy <i>August 2019</i></h4>
+<h4>Andromeda Galaxy, <i>August 2019</i></h4>
 
 ![Andromeda](http://wwww.thomas-harvey.com/images/astrophotography/andromeda.jpg)
 The Andromeda Galaxy is our nearest large galaxy, and in many ways is similar to our own Milky Way galaxy. They are both spiral galaxies, consisting of a flat disk of stars made up of several arms, and a central concentration of stars called a bulge. Many, like the Milky Way, also have a bar extending from the bulge to the spiral arms. Andromeda is actually larger than our galaxy, containing maybe as many as 1 trillion stars, and in a few billion years will actually collide with our galaxy!
 
 This photo was taken by me and Anthony Nel, using a Skywatcher HEQ5 and Esprit 80ED telescope and consists of 19 120s images combined.
   
- <h4>Sadr Region <i>Sept 2019</i></h4>
+ <h4>Sadir Regionm <i>Sept 2019</i></h4>
 
 ![Sadir](http://www.thomas-harvey.com/images/astrophotography/sadr.jpg)
 
 The star Sadir is at the center of the image, framed by complex nebulosity and dust lanes of the Milky Way. Sadir is part of the Cygnus-X molecular cloud which is part of a much larger molecular cloud complex. Cygnus-X is one of the richest known regions of star formation in the Galaxy and it contains as many as 800 distinct H II regions, a number of Wolf-Rayet and O3 stars and several OB associations.
 This has been processed to be true to colour, so the Ha is a subdued red color. It consits of 14 frames of 300s stacked together, using a Canon 60Da and a Skywatcher Esprit 80ED. Data collected by me and processed by Jean Dean.
 
-<h4>Solar Activity <i><June 2020</i></h4>
+<h4>Solar Activity, <i>June 2020</i></h4>
 
-![The Sun](http://www.thomas-harvey.com/images/astrophotography/sadr.jpg)
+![The Sun](http://www.thomas-harvey.com/images/astrophotography/sun.jpg)
 
 This was taken with a Lunt, tilt and tune 60mm diameter solar scope which has a Ha filter. The camera was a ZWO ASI178 mono planetary camera. It was stacked in Autostakkert 3 and finished off in Photoshop. Processed by Jean Dean. A sunspot group and filament from the Sun is shown, as well as the granulation of the surface.
 
