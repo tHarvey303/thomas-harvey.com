@@ -14,6 +14,7 @@ Most galaxies are thought to contain a supermassive black hole at the center, an
 
 I'm from the island of [Guernsey](https://en.wikipedia.org/wiki/Guernsey), in the Channel Islands, which not many people have heard of. I've been very involved with the local astronomy club for many years, and much of my astronomical outreach, including articles, talks, radio and TV interviews has been through them. You can find out more about my outreach [here](https://www.thomas-harvey.com/outreach).
 
-I edit and write articles for La Societe Guernesiase Astronomy Section, both for the website and the newsletter. You can find them [here].(http://www.astronomy.org.gg/)
-I am an amateur astrophotographer, so you should be able to find some pictures I've taken personally [here](http://wwww.thomas-harvey.com/coolstuff/) (suprisingly few astronomers can still say that!). 
+I edit and write articles for La Societe Guernesiase Astronomy Section, both for the website and the newsletter. You can find them [here](http://www.astronomy.org.gg/).
+I am an amateur astrophotographer, so you should be able to find some pictures I've taken personally [here](http://wwww.thomas-harvey.com/coolstuff/). (suprisingly few astronomers can still say that!). 
+
 This website is a continual work in progress, but you should find information on my current research, previous projects, outreach and science communication, other and other random blog posts.
