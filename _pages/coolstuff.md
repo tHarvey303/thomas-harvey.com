@@ -33,11 +33,11 @@ The Heart Nebula is an <i>emission nebula</i>, which simply means it is a cloud 
 
 The Heart Nebula is driven by the cluster of bright stars at the center, which contains stars more than 50x the mass of the Sun! The Heart Nbulae is around 7500ly away, in the constellation Cassiopeia.
 
-![Heart Nebula 2](http://wwww.thomas-harvey.com/images/astrophotography/heart2.jpg)
+![Heart Nebula 2](http://www.thomas-harvey.com/images/astrophotography/heart2.jpg)
 
 <h4>Andromeda Galaxy, <i>August 2019</i></h4>
 
-![Andromeda](http://wwww.thomas-harvey.com/images/astrophotography/andromeda.jpg)
+![Andromeda](http://www.thomas-harvey.com/images/astrophotography/andromeda.jpg)
 The Andromeda Galaxy is our nearest large galaxy, and in many ways is similar to our own Milky Way galaxy. They are both spiral galaxies, consisting of a flat disk of stars made up of several arms, and a central concentration of stars called a bulge. Many, like the Milky Way, also have a bar extending from the bulge to the spiral arms. Andromeda is actually larger than our galaxy, containing maybe as many as 1 trillion stars, and in a few billion years will actually collide with our galaxy!
 
 This photo was taken by me and Anthony Nel, using a Skywatcher HEQ5 and Esprit 80ED telescope and consists of 19 120s images combined.
@@ -57,7 +57,7 @@ This was taken with a Lunt, tilt and tune 60mm diameter solar scope which has a 
 
 <h4>M13 Globular Cluster </h4>
 
-[M13](http://www.thomas-harvey.com/images/astrophotography/m13.jpg)
+![M13](http://www.thomas-harvey.com/images/astrophotography/m13.jpg)
 M13 is a globular cluster, which is a very dense spherical collection of old stars that all formed around the same time. There are many globular clusters in the Milky Way.
 
 
