@@ -1,0 +1,25 @@
+---
+title: 'The Unified AGN Model'
+date: 2021-10-30
+permalink: /posts/2021/AGN/
+tags:
+  - AGN
+  - scicomm
+  - black holes
+---
+
+What is the Unified AGN model?
+======
+
+Let's not get ahead of ourselves. Firstly, what is an AGN, or Active Galactic Nuclei? An AGN is a supermassive black hole at the center of a galaxy. Almost every galaxy is thought to contain a black hole at the center, with a mass of millions to billions of Suns! Not all of these black holes are active, but the ones that are can even outshine their entire galaxy.
+
+This incredible emission from a small region comes from accretion. Black holes don't suck stuff in like you might see in movies, but the centers of galaxies tend to be very crowded, astronomically speaking, and often full of clouds of  dust and gas that can slowly fall in due to friction. If a nearby star gets too close it can be ripped apart in a [Tidal Disruption Event](https://astrobites.org/2012/05/05/witnessing-the-murder-of-a-star/).
+
+This infalling matter heats up due to friction, and forms a disk around the black hole. It can reach temperatures of millions of degrees, and emits across the electromagnetic spectrum, but peaks in visible and UV light. A sphere of gas around the black hole , callecd a corona, can scatter the light from the accretion disk up to x-ray energies. 
+
+A lot of the emission from the accretion disk is absorbed by surrounding clouds of gas. These can be split into 2 categories, broad and narrow. The main difference is that the "broad" gas clouds are close to the black hole, and the "narrow" clouds are further away. If we see both broad and narrow clouds we can them <i>Seyfert 1</i> AGN, whereas  in <i> Syerfert 2 </i> galaxies we only see narrow clouds. 
+
+Further out there is thought to be an obscuring torus, which is a thick donut-shaped shield of gas and dust. The idea of unification is that Seyfert 1 and Seyfert 2 galaxies are actually the same class of object, but just seen from different angles. You can imagine that the reason we don't see the close broad line regions in a Seyfert 2 AGN is because we are looking through the torus, but the further narrow regions are unobscured. In a Seyfert 1 galaxy we are looking through the top or bottom of the torus, so we can see both regions.
+
+Outflows, Jets and Radio Lobes
+-----
