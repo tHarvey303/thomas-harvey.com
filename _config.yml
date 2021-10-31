@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "About me"
   avatar           : "profile.JPG"
-  bio              : "Studying for a Masters in Astrophysics, currently studying at the Harvard Smithsonian Center for Astrophysics as part of my year abroad."
+  bio              : "Studying for a Masters in Astrophysics, currently researching AGN at the Harvard Smithsonian Center for Astrophysics as part of my year abroad."
   location         : "Cambridge, MA"
   employer         :  
   pubmed           : 
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "thomas--harvey"
   orcid            : 
   pinterest        :
   soundcloud       :
