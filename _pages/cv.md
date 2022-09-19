@@ -14,9 +14,11 @@ Download my full CV as a PDF [here](http://www.thomas-harvey.com/files/CV_Academ
 
 Education
 ======
-* MPhys Astrophysics with a Year Abroad - University of Southampton, <i>September 2018 - July 2022 (expected)</i>
-  * Undertaking a research year at the Harvard-Smithsonian Center for Astrophysics in Cambridge, MA.
-  *  Achieved a current degree average 88.9\% - achieving best in first year and selection onto the Year Abroad program as one of the top five students in third year. 
+* PhD Student at the Jodrell Bank Center for Astrophysics - University of Manchester <i>September 2022 - May 2025</i>
+  * Studying the first galaxies with Professor Christopher Conselice.
+* MPhys Astrophysics with a Year Abroad - University of Southampton, <i>September 2018 - July 2022 </i>
+  * Undertook a research year at the Harvard-Smithsonian Center for Astrophysics in Cambridge, MA.
+  *  Achieved a high first class degree with an average of 86.2% - achieving a Dean's Award and best academci achievement in first year.
 * Guernsey Grammar School and Sixth Form Centre, <i> September 2012 - June 2018 </i>
   * <b>A Levels:</b>  Physics: A*, Further Maths: A, Maths: A, Computer Science (AS): B
   * <b>GCSE's:</b> 5 A*'s, 6 A's and 1 B
@@ -39,6 +41,7 @@ Research Experience
   
 Awards
 ======
+* Dean’s List Award for Outstanding Achievement <i>2022</i>
 * Selected for flagship research year at the Harvard-Smithsonian Center for Astrophysics <i>2021</i>
 * Elected Fellow of the Royal Astronomical Society (FRAS) <i> 2020 </i>
 * Whittaker Trust Bursary Recipient <i> 2019 </i>
