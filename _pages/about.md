@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my website! If you haven't noticed already, my name is Thomas (Tom) Harvey! I'm currently a PhD student studying Astrophysics, at the [Jodrell Bank Center for Astrophysics](https://www.jodrellbank.manchester.ac.uk/). I am studying the first stars and galaxies using the [James Webb Space Telescope](https://www.jwst.nasa.gov/) with Professor Christopher Conselice.
+Welcome to my website! If you haven't noticed already, my name is Thomas (Tom) Harvey! I'm currently a PhD student studying at the [Jodrell Bank Center for Astrophysics](https://www.jodrellbank.manchester.ac.uk/). I am researching the first stars and galaxies using the [James Webb Space Telescope](https://www.jwst.nasa.gov/) with Professor Christopher Conselice.
 
 I spent the final year of my undergraduate degree working at the [Harvard-Smithsonian Center for Astrophysics](https://cfa.harvard.edu) in Cambridge, Massachusetts. I studied AGN feedback using Chandra and Hubble imaging and spectroscopy with [Dr. W. Peter Maksym](http://hea-www.harvard.edu/~wmaksym/), as part of Dr. Pepi Fabbiano's research group.
 
