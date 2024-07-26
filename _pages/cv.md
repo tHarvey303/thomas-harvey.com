@@ -14,7 +14,7 @@ Download my full CV as a PDF [here](http://www.thomas-harvey.com/files/CV_Academ
 
 Education
 ======
-* PhD Student at the Jodrell Bank Center for Astrophysics - University of Manchester <i>September 2022 - May 2025</i>
+* PhD Student at the Jodrell Bank Center for Astrophysics - University of Manchester <i>September 2022 - May 2026</i>
   * Studying the first galaxies with Professor Christopher Conselice.
 * MPhys Astrophysics with a Year Abroad - University of Southampton, <i>September 2018 - July 2022 </i>
   * Undertook a research year at the Harvard-Smithsonian Center for Astrophysics in Cambridge, MA.
