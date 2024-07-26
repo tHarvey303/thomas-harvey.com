@@ -9,16 +9,22 @@ author_profile: true
 
 <h2>Summary </h2>
 
-I'm currently doing research as part of the High-Energy Astrophysics Division (HEAD) of the Harvard-Smithsonian Center for Astrophysics. My supervisor is Dr. W. Peter Maksym, who is part of Dr. Pepi Fabbiano's research group. I study the interactions between AGN (supermassive central black holes) and their host galaxies, using data from across the electromagnetic spectrum. 
+<h3>PhD Research</h3>
+
+I am currently studying for a PhD at the Jodrell Bank Center for Astrophysics, part of the University of Manchester. My supervisors are Professor Christopher Conselice and Dr. Nathan Adams.
+My research involves using the James Webb Space Telescope to study galaxies in the early universe. I am particurally interested in the growth of stellar mass in the first galaxies. 
+
+<h3> Master's Research </h3>
+My master's research was undertaken at the High-Energy Astrophysics Division (HEAD) of the Harvard-Smithsonian Center for Astrophysics. My supervisor was Dr. W. Peter Maksym. I studied the interactions between AGN (supermassive central black holes) and their host galaxies, using data from across the electromagnetic spectrum. 
   
 Most galaxies are thought to have a central black hole that is millions to billions of times the mass of the Sun. This solar system size object can have an incredilbly large influence on the evolution of the entire galaxy, through jets, outflows and winds. Often light from AGN can outshine the rest of the galaxy altogether! AGN can look wildy different depending on the angle we view them at, and they were once thought to be many different objects, but there is now a <b>Unified Model</b>, that ties all of our theories together. You can read more about it [here](https://www.thomas-harvey.com/posts/2021/AGN/)
   
-I mainly use data from the Chandra and Hubble telescopes, which work in the x-ray and optical respectively, although I do use I have used NuSTAR and VLA data as well for comparisons. I work with both images and spectroscopy to charicterise both the location and spectral shape of the emission, which can be modelled to provide insight into the physical parameters describing the AGN and surrounding material, such as the amount of obscuration (column density), gas temperature and the viewing angle. 
+I used data from the Chandra and Hubble telescopes, which work in the x-ray and optical respectively, although I have used NuSTAR and VLA data as well for comparisons. I work with both images and spectroscopy to charicterise both the location and spectral shape of the emission, which can be modelled to provide insight into the physical parameters describing the AGN and surrounding material, such as the amount of obscuration (column density), gas temperature and the viewing angle. 
 <h2>NGC 5972</h2>
 
 ![NGC_6972_Hubble](http://www.thomas-harvey.com/images/ngc597_hubble_small.jpg)
 
-  <h2> AAS Abstract </h2>
+  <h2> AAS HEAD Abstract 2022 (Poster) </h2>
 
 <b> Signatures of AGN feedback in the spectacular extended emission line region of NGC 5972 <b>
 
@@ -31,13 +37,6 @@ We will present a new analysis of 3 Chandra observations of NGC 5972, totalling 
 
 
 
-<h2>Extended Emission Line Regions</h2>
-
-
-<h2>Chandra</h2>
-  
-  
-<h2>Hubble</h2>
 
 
 
