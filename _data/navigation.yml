@@ -3,23 +3,23 @@ main:
  - title: "Research"
    url: /research/
 
- - title: "Projects"
-   url: /projects/
-
  - title: "Publications"
    url: /publications/
 
- - title: "Outreach"
-   url: /outreach/
-        
- - title: "Blog"
-   url: /year-archive/
-    
  - title: "CV"
    url: /cv/
+
+ - title: "Software"
+   url: /software/
+
+ - title: "Outreach"
+   url: /outreach/
    
- - title: "Cool Stuff"
+ - title: "Astrophotography"
    url: /coolstuff/
+
+   - title: "Blog"
+   url: /year-archive/
     
 #  - title: "Guide"
  #   url: /markdown/
