@@ -1,10 +1,10 @@
 ---
 layout: archive
-title: "Cool Stuff"
-permalink: /coolstuff/
+title: "Astrophotography"
+permalink: /astrophotography/
 author_profile: true
 redirect_from:
-  - /coolstuff
+  - /astrophotography
 ---
 
 {% include base_path %}
