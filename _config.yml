@@ -85,10 +85,10 @@ author:
   name             : "About me"
   avatar           : "profile.JPG"
   bio              : "PhD student at Jodrell Bank Center for Astrophysics, University of Manchester, studying early galaxies with JWST"
-  location         : "Cambridge, MA"
-  employer         :  
+  location         : "Manchester, UK"
+  employer         : "University of Manchester"
   pubmed           : 
-  googlescholar    : 
+  googlescholar    :  https://scholar.google.com/citations?user=LIUd6PEAAAAJ&hl=en
   email            :  thomas.harvey-3@postgrad.manchester.ac.uk
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
