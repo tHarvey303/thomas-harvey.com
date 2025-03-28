@@ -13,9 +13,13 @@ For the most up-to-date list of publiations, inclduing pre-prints, please see my
 
 {% include base_path %}
 
+## First Author
+
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
+
+## Co-authored Papers
 
 {% for post in site.publications_2ndauthor reversed %}
   {% include archive-single.html %}
