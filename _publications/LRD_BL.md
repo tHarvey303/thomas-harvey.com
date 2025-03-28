@@ -1,7 +1,7 @@
 ---
 title: "JWST's little red dots: an emerging population of young, low-mass AGN cocooned in dense ionized gas"
 collection: publications_2ndauthor
-permalink: /publication/jwst-little-red-dots
+permalink: /publications_2ndauthor/jwst-little-red-dots
 excerpt: ''
 date: 2025-03-01
 venue: 'arXiv e-prints'
