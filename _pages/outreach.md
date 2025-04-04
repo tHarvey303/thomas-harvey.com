@@ -11,7 +11,7 @@ author_profile: true
 
 I am passionate about outreach and engaging with members of the public and local interest groups. Please get in touch if you'd like to arange a talk for a school, astronomy society or other organization. 
 
-February 2025 - Public talk for [Lancaster & Morecambe Astroomical Society](https://lamasastro.wixsite.com/lamas)  
+February 2025 - Public talk for [Lancaster & Morecambe Astronomical Society](https://lamasastro.wixsite.com/lamas)  
 December 2024 - Public talk for [West Didsbury Astronomical Society](https://wp2019.wdas2.com/wp2019/)  
 September 2024 - Public talk for [Macclesfield Astronomical Society](https://maccastrosoc.com/)  
 
