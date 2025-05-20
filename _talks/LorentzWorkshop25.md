@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/lorentz25
 venue: "Lorentz Workshop: Big Galaxies Big Problems"
-date: 2024-04-28
+date: 2025-04-28
 location: "Lorentz Center, University of Leiden, Leiden, Netherlands"
 ---
 
