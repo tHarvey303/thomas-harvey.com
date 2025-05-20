@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/firstgalaxies
 venue: "First Galaxies: Building blocks of galaxies across cosmic time"
-date: 2025-05-22
+date: 2025-04-10
 location: "University of Oxford, Oxford, UK"
 ---
 
