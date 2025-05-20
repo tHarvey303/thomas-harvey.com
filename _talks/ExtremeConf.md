@@ -8,4 +8,4 @@ date: 2024-04-29
 location: "Reyjavik, Iceland"
 ---
 
-I presented a talk at the Exteme Galaxies Conference in Reyjavik, Iceland. The talks are available (here)[https://drive.google.com/drive/folders/18W2BJ0mbi5ekkBlr31BwUPLs97hXhoO0?usp=drive_link].
+I presented a talk at the Exteme Galaxies Conference in Reyjavik, Iceland. The talks are available [here](https://drive.google.com/drive/folders/18W2BJ0mbi5ekkBlr31BwUPLs97hXhoO0?usp=drive_link).
