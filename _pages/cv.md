@@ -25,6 +25,14 @@ Education
 
 Research Experience
 ======
+
+
+* Jodrell Bank Centre for Astrophysics, University of Manchester _Sept. 2022 - March 2026_
+  * Working within the EPOCHS group, my PhD research has focused on  locating and characterizing high-redshift galaxies in imaging surveys using JWST. I've taken an active role in planning and executing my own research, and have a strong track record in first-author publications, as well as contributing to and publishing my own open-source software.
+  * Contributed to $>$10 published papers in the EPOCHS series, including helping to develop the foundational galaxy catalogues and selection criteria for the EPOCHS team. I've also engaged more widely as part of the JWST \textbf{PEARLS} GTO team, collaborating internationally on a variety of projects including strong lensing searches, galaxy cluster studies and statistical studies of galaxies and AGN. 
+  * At Manchester I have helped to supervise and mentor undergraduate and Master's students, many of which have resulted in student-lead publications. I also organize the journal club for the high-redshift group at Manchester as a way to keep up to date with new research.
+
+
 * Harvard-Smithsonian Center for Astrophysics (CfA): <i>Sept 2021 - May 2022</i>
   * Researching AGN feedback with Dr. W. Peter Maksym in Dr. P. Fabbiano's research group. My research focuses on the role of the AGN, jets and winds in exciting x-ray emission from gas clouds within NGC 5972, including a large extended line emission region. See [here](/research/) for more details.
   *  Collaborating with other members of the research group to solve problems and advance the project, including participating in weekly group meetings. 
@@ -51,13 +59,41 @@ Awards
 Skills
 ======
 
-<i>Key Skills:</i> problem solving, time-management, teamwork, communication and academic writing.
+<i>Key Skills:</i> academic writing, problem solving, time-management, teamwork, and communication
 
 <i>Programming and Data Analysis:</i>  Python - NumPy, SciPy, matplotlib, pandas and AstroPy: photuils, ccdproc,specutils, reproject.
+
+<i> Data Visualisation: </i>  matplotlib, bokeh, panel, holoviews, plotly
+
+<i> Astro Tools: </i> bagpipes, prospector, eazy-py, pPXF, jwst pipeline, specutils, photuils, sextractor
+
+<i>  HPC and ML Tools: </i>  PyTorch, jax, sbi, LtU-ILI, scikit-learn, optuna, slurm 
 
 <i>Chandra Tools:</i>  Experience with Ciao, Sherpa, XSPEC, ds9, ChaRT and MARX.
 
 <i>Academic Tools:</i>  LaTeX (Overleaf), BibTeX, Mendeley, arXiv and NASA ADS.
+
+
+Software Development
+======
+
+**sbifitter**:Leading development of new Python package using simulation-based inference (SBI) to accelerate galaxy SED fitting.
+
+[EXPANSE](https://github.com/tHarvey303/EXPANSE:) Lead developer of Python package for resolved SED-fitting of galaxies, including interactive GUI.
+
+[GALFIND](https://github.com/duncanaustin98/galfind}) Co-developer of software pipeline for automated catalogue creation, galaxy selection and SED fitting. 
+
+[BDFinder](https://github.com/tHarvey303/BD-Finder): Developed Python package to fit synthetic M, L, T, Y dwarf templates to photometric catalogs, and compute derived parameters such as distance, effective temperature and mass. 
+
+See more details [here.](/software])
+
+Teaching and Supervision
+======
+
+* Graduate Teaching Assistant, University of Manchester _2022-_
+  * Lead GTA for Theory Computing Project module, teaching key scientific programming concepts and supporting semester-long group projects (PHYS20872).
+  * Ran Intro to Python programming support lab for undergraduate physics students (PHYS20161).
+  * Led small group tutorials covering undergraduate physics courses on astrophysics and maths (PHYS10071/10091).
 
 Science Communication
 ======
