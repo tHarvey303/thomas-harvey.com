@@ -4,7 +4,7 @@ collection: talks
 type: "Invited Seminar"
 permalink: /talks/cambridge2025
 venue: "Kavli Institute for Cosmology"
-date: 2025-06-17
+date: 2025-10-08
 location: "University of Cambridge, Cambridge, UK."
 ---
 
