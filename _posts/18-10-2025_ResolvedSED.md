@@ -1,7 +1,7 @@
 ---
 title: 'Resolving the Internal Structures of z>5 Galaxies'
 date: 2025-03-28
-permalink: /posts/2025/resolved/
+permalink: /posts/2025/RESOLVED/
 tags:
   - JWST
   - sed
