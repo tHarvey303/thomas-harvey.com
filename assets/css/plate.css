@@ -172,19 +172,20 @@ header + .sheet,header + section{border-top:0}
 .entry p{margin:0;color:var(--ink-2);font-size:.95rem}
 
 /* publication list: rows open to show the abstract */
-.prose h2 .count{font-family:var(--hand);font-style:normal;font-size:.8rem;color:var(--pen);margin-left:10px}
+.prose h2 .count{font-family:var(--type);font-style:normal;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--stamp);border:1.2px solid var(--stamp);border-radius:2px;padding:3px 7px 1px;margin-left:12px;vertical-align:middle;white-space:nowrap}
 .publist{margin:0;padding:0}
 .publist .yr{font-family:var(--type);font-size:.8rem;letter-spacing:.12em;color:var(--stamp);margin:26px 0 0;border-bottom:2px double var(--stamp);padding-bottom:3px}
 .publist .pub{border-bottom:1px solid var(--ledger)}
-.publist .pub>summary{display:grid;grid-template-columns:5.5rem 1fr;gap:0 14px;padding:8px 0 6px;cursor:pointer;list-style:none}
+.publist .pub>summary{display:grid;grid-template-columns:2rem 4.6rem 1fr;gap:0 14px;padding:8px 0 6px;cursor:pointer;list-style:none}
 .publist .pub>summary::-webkit-details-marker{display:none}
 .publist .pub>summary:hover{background:rgba(162,52,32,.05)}
+.publist .n{font-family:var(--type);font-size:.74rem;color:var(--stamp);padding-top:4px;text-align:right}
 .publist .j{font-family:var(--type);font-size:.74rem;color:var(--ink-2);padding-top:4px}
 .publist .t{font-style:italic}
 .publist .t::after{content:"  +";font-family:var(--type);font-style:normal;color:var(--stamp);font-size:.8rem}
 .publist .pub[open] .t::after{content:"  −"}
 .publist .a{display:block;font-size:.9rem;color:var(--ink-2)}
-.publist .more{margin:0 0 12px calc(5.5rem + 14px);padding:2px 0 2px 16px;border-left:2px solid var(--stamp);max-width:80ch}
+.publist .more{margin:0 0 12px calc(6.6rem + 28px);padding:2px 0 2px 16px;border-left:2px solid var(--stamp);max-width:80ch}
 .publist .more p{margin:0 0 .6em}
 
 /* lightbox */
@@ -212,7 +213,7 @@ footer.foot .fine{color:var(--ink-2);text-align:right}
   .cards,.gallery{grid-template-columns:1fr}
   .charts{grid-template-columns:1fr 1fr}
   .pair .plate:nth-child(even){width:100%}
-  .publist .pub>summary{grid-template-columns:1fr}.publist .more{margin-left:0}
+  .publist .pub>summary{grid-template-columns:2rem 1fr}.publist .pub>summary>span:last-child{grid-column:1/-1}.publist .more{margin-left:0}
   .ledger .head{display:none}
   .ledger .row>summary,.ledger div.row{grid-template-columns:1fr;gap:2px}
   .drawer .hand{margin-left:0}
