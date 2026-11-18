@@ -1,5 +1,47 @@
 [
  {
+  "title": "Euclid: Data Release 1 (DR1) - First NISP emission-line maps: Methodology, validation, and applications to galaxy evolution",
+  "authors": "Gabarra L., Granett B.R. … Harvey T., et al.",
+  "position": 15,
+  "n_authors": 187,
+  "first_author": false,
+  "journal": "arXiv",
+  "year": 2026,
+  "month": 11,
+  "doi": null,
+  "arxiv": "2611.16504",
+  "url": "https://arxiv.org/abs/2611.16504",
+  "abstract": "We demonstrate the capability of the slitless spectroscopic mode of the Euclid Near-Infrared Spectrometer and Photometer (NISP) to produce emission-line maps analogous to narrow-band images with user-defined central wavelengths. We present the first such maps of galaxies at $0.4 < z < 0.9$, constructed from blue-grism exposures obtained during the Euclid performance-verification observations of the Cosmic Evolution Survey (COSMOS) field in November 2023. We demonstrate the use of these maps for identifying star-forming clumps, measuring radial star-formation profiles, detecting projected internal velocity gradients, deblending the H$α$--[N II] complex, and assessing spectroscopic redshift measurements. As a first statistical application, we reconstruct the galaxy mass--metallicity relation for 885 galaxies observed with the blue grism at $0.4 < z < 0.9$ by deblending the H$α$--[N II] complex in the emission-line maps, and measure stacked H$α$ radial profiles for 2634 galaxies over the same redshift range. The mass--metallicity relation is consistent with that obtained from the Euclid 1D spectroscopic measurements, demonstrating overall agreement between the two deblending approaches. The recovered H$α$ radial profiles broadly follow the $Y_{\\mathrm{E}}$ stellar continuum but remain modestly more extended after matching the $Y_{\\mathrm{E}}$ images to the H$α$ PSF, consistent with previous results in the literature. Across the four $Y_{\\mathrm{E}}$ size bins, we measure a mean $R_{50,\\mathrm{H}α}/R_{50,Y_{\\mathrm{E}}}=1.15$."
+ },
+ {
+  "title": "Euclid Data Release 1 (DR1). Euclid Lens Identification Pipeline and Scientific Exploration (ECLIPSE) B: Discovery pipeline overview",
+  "authors": "Euclid Collaboration, Holloway P. … Harvey T., et al.",
+  "position": 56,
+  "n_authors": 371,
+  "first_author": false,
+  "journal": "arXiv",
+  "year": 2026,
+  "month": 11,
+  "doi": null,
+  "arxiv": "2611.15886",
+  "url": "https://arxiv.org/abs/2611.15886",
+  "abstract": "We present the method used to identify the $15\\,000$ high-grade galaxy-galaxy strong lens candidates in Euclid Data Release 1 (DR1). Given that lenses are intrinsically rare systems and the DR1 data set is vast, this lens search was conducted in a number of stages: a catalogue-level cut; a machine-learning and ensemble search; a two-stage citizen-science search, and finally grading of lens candidates by strong lens researchers. In this paper, we describe each search stage and their respective results. This search was enabled by the automated classification of over 68 million objects by neural networks, more than 4.5 million classifications of $300\\,000$ objects by citizen-scientist volunteers, and the inspection of over $30\\,000$ objects by strong lens researchers. We find this multi-stage approach helps maximise the number of lenses identified, while minimising inspection requirements of both citizen scientists and strong lens researchers. We measure a completeness in our comprehensive search of $0.73_{-0.15}^{+0.08}$ to grade A ('definite') systems and $0.34_{-0.06}^{+0.05}$ to grade A+B ('definite' + 'probable') systems. Our search therefore identifies the majority of the definitive strong lens systems in the DR1 area with the remainder likely to be fainter or more ambiguous cases. We find that researcher grading remains subjective; in this work we implement calibration to account for biases of individual inspectors and highlight the benefit of lens modelling (ECLIPSE-C) in determining the nature of a lens candidate. This paper forms part of the ECLIPSE series, here focussing on the discovery pipeline used to identify lens candidates in Euclid DR1; an overview of the lenses discovered is presented in ECLIPSE-A."
+ },
+ {
+  "title": "Euclid Data Release 1 (DR1). Euclid Lens Identification Pipeline and Scientific Exploration (ECLIPSE) A: Strong lens catalogue overview",
+  "authors": "Euclid Collaboration, Lines N.E.P. … Harvey T., et al.",
+  "position": 57,
+  "n_authors": 379,
+  "first_author": false,
+  "journal": "arXiv",
+  "year": 2026,
+  "month": 11,
+  "doi": null,
+  "arxiv": "2611.15883",
+  "url": "https://arxiv.org/abs/2611.15883",
+  "abstract": "We present 15 072 high-confidence strong lens candidates in Euclid Data Release 1 (DR1), spanning 2000 deg$^2$. These comprise 6073 grade A ('sure lens') and 8999 grade B ('probable lens') systems, which we publish alongside a further 9010 grade C ('possible lens') candidates. With more high-confidence candidates than all previous catalogues combined, this sample establishes a large, homogeneous data set of galaxy-scale strong lenses with high-resolution imaging, transforming strong lensing from a field of rare discoveries to a robust statistical tool for astrophysics and cosmology. Of the roughly 900 million sources in DR1, we searched the 68 million passing our catalogue selection using a bespoke discovery pipeline that synthesises scores from five machine-learning models with visual classifications from around 7000 citizen scientists and 67 strong lensing experts. Beyond classical Einstein rings, our catalogue includes 84 candidate double-source-plane lenses and over 1000 candidate disc lenses, two exotic classes with few previously known examples, as well as several hundred candidate lensed AGN and quasars. We deliver automated lens models for the combined grade A+B systems, and photometric redshifts and stellar population properties for the deflector galaxies, providing immediate science-ready data products. We find that the majority of the deflector galaxies are massive and quiescent, with stellar masses of $\\log_{10}(M_\\ast /M_\\odot) = 11.39^{+0.29}_{-0.33}$ (Salpeter initial mass function; 16th-84th percentile range). The deflector galaxies span a range of photometric redshifts ($z=0.68 ^{+0.33}_{-0.29}$), extending to higher redshifts than previous ground-based lens samples, and the lenses have a typical Einstein radius of $0.85 ^{+0.44}_{-0.24}$ arcsec. Extrapolating by area, we expect over 100 000 high-confidence strong lens candidates in the Euclid Wide Survey."
+ },
+ {
   "title": "The Roman eXtreme Deep Field (RXDF)",
   "authors": "Yan H., Koekemoer A.M. … Harvey T., et al.",
   "position": 68,

@@ -23,3 +23,8 @@
 # Published in Nature under a new title, so the preprint and the paper do not match automatically.
 - arxiv: "2503.16595"
   doi: "10.1038/s41586-025-09900-4"
+
+# Euclid Consortium papers, listed on arXiv as "T. Harvey".
+- arxiv: "2611.16504"
+- arxiv: "2611.15886"
+- arxiv: "2611.15883"

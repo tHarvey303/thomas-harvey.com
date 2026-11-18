@@ -95,6 +95,8 @@ def authors_summary(names):
     position = next((i + 1 for i, n in enumerate(names) if NAME.match(n.strip())), 0)
 
     def fmt(n):
+        if "collaboration" in n.lower() or "consortium" in n.lower():
+            return n   # "Euclid Collaboration" is not a person
         parts = n.split()
         k = len(parts) - 1
         while k > 1 and parts[k - 1].lower() in ("le", "de", "del", "della", "van", "von", "der", "den", "da", "di", "la", "du"):
