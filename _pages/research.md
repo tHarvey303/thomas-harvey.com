@@ -52,10 +52,6 @@ My interest in black holes goes back to my Master's year at the Center for Astro
 
 ## Telescope time
 
-</div>
-
 {% include ledger-proposals.html %}
 
-<div class="prose" markdown="1" style="margin-top:2em">
-
-The full list of papers is on the [publications page]({{ base_path }}/publications/), and the code is on the [software page]({{ base_path }}/software/).
+<p style="margin-top:1.6em">The full list of papers is on the <a href="{{ base_path }}/publications/">publications page</a>, and the code is on the <a href="{{ base_path }}/software/">software page</a>.</p>
