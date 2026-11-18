@@ -1,32 +1,55 @@
 ---
 layout: compress
 ---
-
 {% include base_path %}
-
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
+<html lang="{{ site.locale | slice: 0,2 }}">
   <head>
     {% include analytics.html %}
     {% include head.html %}
     {% include head/custom.html %}
   </head>
+  <body class="{{ page.body_class }}">
+    <div class="wrap">
+      <header>
+        <div class="mast">
+          <a class="who" href="{{ base_path }}/">{{ site.name }}<small>{{ site.author.employer }} · {{ site.author.location }}</small></a>
+          <button class="develop" id="develop" type="button" aria-pressed="false">Develop all plates</button>
+        </div>
+        <nav class="tabs" aria-label="Sections">
+          {% assign letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" %}
+          {% for link in site.data.navigation.main %}
+            <a href="{{ base_path }}{{ link.url }}"{% if page.url == link.url %} class="here" aria-current="page"{% endif %}><b>{{ letters | slice: forloop.index0, 1 }}</b>{{ link.title }}</a>
+          {% endfor %}
+        </nav>
+      </header>
 
-  <body>
+      {{ content }}
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
+      <footer class="foot" id="contact">
+        <div>
+          <a href="mailto:{{ site.author.email }}">Email</a>
+          <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+          <a href="{{ site.author.orcid }}">ORCID</a>
+          <a href="{{ site.author.googlescholar }}">Scholar</a>
+          <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>
+          <a href="{{ base_path }}/sitemap/">Sitemap</a>
+          <a href="{{ base_path }}/feed.xml">Feed</a>
+        </div>
+        <div class="fine">Heidelberg · 49.40° N, 8.72° E<br>© {{ site.time | date: "%Y" }} {{ site.name }}</div>
       </footer>
     </div>
 
-    {% include scripts.html %}
+    <dialog class="lightbox" id="lightbox" aria-label="Enlarged image">
+      <figure class="frame" style="margin:0">
+        <img src="data:," alt="">
+        <figcaption></figcaption>
+      </figure>
+      <button class="x" type="button">Close</button>
+      <button class="prev" type="button" aria-label="Previous image">←</button>
+      <button class="next" type="button" aria-label="Next image">→</button>
+    </dialog>
 
+    {% include scripts.html %}
   </body>
 </html>

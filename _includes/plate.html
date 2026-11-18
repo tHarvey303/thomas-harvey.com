@@ -1,0 +1,7 @@
+<figure class="plate" tabindex="0">
+  <div class="glass"{% if include.p.ratio %} style="aspect-ratio:{{ include.p.ratio }}"{% endif %}>
+    <img src="{{ base_path }}{{ include.p.image }}" alt="{{ include.p.alt }}"{% unless include.eager %} loading="lazy"{% endunless %}{% if include.p.position %} style="object-position:{{ include.p.position }}"{% endif %}>
+    {% if include.p.marks == "andromeda" %}{% include home/marks-andromeda.html %}{% endif %}
+  </div>
+  <figcaption><span class="hand">{{ include.p.caption }}</span>{% if include.p.number %}<span class="no">{{ include.p.number }}</span>{% endif %}</figcaption>
+</figure>

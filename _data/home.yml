@@ -1,0 +1,128 @@
+# Text and pictures for the home page. Edit here; no HTML needed.
+# Paragraphs accept Markdown (links, *emphasis*).
+
+opened: "Observer's file · opened 2019"
+tagline: "How early galaxies formed their stars, read from faint smudges on a detector."
+intro: >-
+  I'm a postdoctoral researcher at the Max Planck Institute for Astronomy in Heidelberg.
+  I use JWST, Hubble and Euclid imaging to work out how galaxies in the early Universe formed
+  their stars, and I write the tools that make that inference fast and honest.
+
+# The typed index card under the introduction.
+card:
+  heading: "HARVEY, T."
+  call: "Q B 8 5 7"
+  rows:
+    - [Post, "Postdoctoral researcher, MPIA, 2026–"]
+    - [Ph.D., "Manchester (Jodrell Bank), 2026"]
+    - [Prev., "Center for Astrophysics, 2021–22"]
+    - [With, "Euclid · PEARLS · EPOCHS · Synthesizer"]
+
+hero:
+  image: /images/astrophotography/andromeda.jpg
+  alt: "The Andromeda Galaxy"
+  caption: "M 31 — Aug. 2019 — 19 × 120 s — Esprit 80ED — T.H. & A. Nel"
+  number: "TH 0001"
+  ratio: "2048/1320"
+  marks: andromeda   # hand-drawn labels in _includes/home/marks-andromeda.html
+
+research:
+  lead: >-
+    I study galaxies in the first few billion years of the Universe. I want to know when and how they formed their stars: their star formation
+    histories, the stellar populations they contain, and how much mass they had built. All of that
+    has to be inferred from a galaxy's light, so much of my work is testing how far the inference
+    can be trusted.
+  topics:
+    - title: "Resolved galaxies."
+      text: >-
+        JWST resolves the stellar populations of galaxies at z ≈ 5–10, so we can test whether young
+        starbursts are outshining older stars and hiding mass from integrated fits. I wrote
+        [EXPANSE](https://github.com/tHarvey303/EXPANSE) to do this systematically, and I am now
+        building [arachne](https://github.com/tHarvey303/arachne), which forward-models whole
+        multi-band images on a GPU.
+      more: >-
+        Using 19 NIRCam bands in the JADES Origins Field, I fitted more than 200 galaxies at z ≥ 4.5
+        pixel by pixel and compared the result with the usual integrated fit. Low-mass, bursty
+        galaxies come out typically 1.25–2.5 times more massive when resolved, and more than ten
+        times in individual cases. [Read the paper](/publication/outshining).
+    - title: "Fast inference."
+      text: >-
+        Fitting one galaxy with nested sampling takes minutes to hours, and surveys now contain
+        millions. [synference](https://synthesizer-project.github.io/synference/) trains a neural
+        posterior estimator on Synthesizer forward models once, then returns a full posterior for a
+        new galaxy in milliseconds.
+      more: >-
+        Simulation-based inference combines the speed of machine learning with Bayesian
+        statistics, and speeds up SED fitting by a factor of 10³–10⁵ over conventional sampling.
+        [Read the paper](/publication/synference).
+    - title: "Euclid Deep Fields."
+      text: >-
+        JWST sees very deep but over a tiny patch of sky, so the brightest and rarest early galaxies
+        are mostly missing from its surveys. The Euclid Deep Fields cover about 53 square degrees in
+        the near-infrared, roughly a hundred times the area of the largest JWST survey. I am using
+        them to search for luminous galaxies at z > 7, which mostly means telling real distant
+        galaxies from the cool brown dwarfs that mimic them.
+    - title: "Massive galaxies."
+      text: >-
+        At MPIA I work with Anna de Graaff on how the most massive early galaxies formed, as part of
+        the ERC-funded FIRST-GIANTS project.
+    - title: "Black holes and their hosts."
+      text: >-
+        My Master's research at the Harvard-Smithsonian Center for Astrophysics used Chandra and
+        Hubble to study NGC 5972, a galaxy wrapped in gas still glowing from a quasar that has since
+        faded.
+      more: >-
+        The extended emission-line region records how the black hole's output has changed over tens
+        of thousands of years. [Read the paper](/publication/ngc5972_feedback).
+  plates:
+    - image: /images/GLIMPSE_RGB.jpg
+      alt: "GLIMPSE NIRCam image of the galaxy cluster Abell S1063"
+      caption: "Abell S1063 — JWST / NIRCam — GLIMPSE"
+      number: "JW 0348"
+      ratio: "4/3"
+    - image: /images/ngc597_hubble_small.jpg
+      alt: "Hubble image of NGC 5972"
+      caption: "NGC 5972 — HST — fading AGN"
+      number: "HS 5972"
+      ratio: "960/590"
+  figures:
+    - image: /images/papers/smd.png
+      alt: "Cosmic stellar mass density versus redshift"
+      caption: "Fig. 1. Cosmic stellar mass density at 6.5 < z < 13.5. Harvey et al. 2025, ApJ."
+    - image: /images/papers/outshining_mass_comparison.png
+      alt: "Resolved versus integrated stellar mass for four binning methods"
+      caption: "Fig. 2. Stellar mass from resolved fits against the integrated fit, for four ways of binning pixels. Harvey et al. 2025, MNRAS."
+    - image: /images/papers/synference_speed.png
+      alt: "Inference time per galaxy for synference and other codes"
+      caption: "Fig. 3. Inference time per galaxy: synference against conventional SED-fitting codes. Harvey et al. 2026, MNRAS."
+    - image: /images/papers/arachne_frontpage.png
+      alt: "arachne fitting a catalogue, light components and parameter maps"
+      caption: "Fig. 4. arachne fitting a catalogue, separate light components, and maps of mass, dust and age."
+
+# My own astrophotography, shown as plates.
+gallery:
+  - image: /images/astrophotography/heart.jpg
+    alt: "The Heart Nebula"
+    caption: "Heart Neb. — 14 × 400 s — Canon 60Da"
+    number: "TH 0002"
+  - image: /images/astrophotography/sadr.jpg
+    alt: "Nebulosity around the star Sadr in Cygnus"
+    caption: "γ Cyg (Sadr) — 14 × 300 s — proc. J. Dean"
+    number: "TH 0003"
+  - image: /images/astrophotography/m13.jpg
+    alt: "The globular cluster M13"
+    caption: "M 13 — globular, Hercules"
+    number: "TH 0004"
+  - image: /images/astrophotography/sun.jpg
+    alt: "The Sun in hydrogen-alpha light"
+    caption: "Sun, Hα — Lunt 60 mm — ASI178"
+    number: "TH 0005"
+  - image: /images/astrophotography/NEOWISE_small.png
+    alt: "Comet NEOWISE"
+    caption: "C/2020 F3 NEOWISE — 29 × 150 s — 100 mm f/2.8"
+    number: "TH 0006"
+    position: "50% 30%"
+  - image: /images/astrophotography/heart2.jpg
+    alt: "The Heart Nebula, second processing"
+    caption: "Heart Neb. — same data, proc. J. Dean"
+    number: "TH 0002b"

@@ -1,0 +1,25 @@
+# Corrections to the automatic publication list (scripts/update_publications.py).
+#
+#   - To add a paper the search missed, give its arXiv id:     - arxiv: "2607.01129"
+#   - To record where a preprint was published, add the DOI:    - arxiv: "..."  +  doi, journal, year, month
+#   - To remove a namesake's paper:                             - arxiv: "..."  +  exclude: true
+#   - A paper that is not on arXiv needs: title, authors, position, n_authors, journal, year, doi.
+
+- title: "Flexible simulation-based inference for galaxy photometric fitting with Synthesizer"
+  authors: "Harvey T., et al."
+  position: 1
+  n_authors: 16
+  journal: "MNRAS"
+  year: 2026
+  month: 2
+  doi: "10.1093/mnras/stag282"
+  arxiv: "2511.10640"
+  url: "https://academic.oup.com/mnras/article/547/1/stag282/8472650"
+
+# Listed on arXiv as "Tom Harvey" but not returned by the author search.
+- arxiv: "2607.01129"
+- arxiv: "2604.25632"
+
+# Published in Nature under a new title, so the preprint and the paper do not match automatically.
+- arxiv: "2503.16595"
+  doi: "10.1038/s41586-025-09900-4"

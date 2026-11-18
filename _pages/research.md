@@ -1,57 +1,61 @@
 ---
 layout: archive
-title: "My Research"
+title: "Research"
 permalink: /research/
-author_profile: true
+note: "click a figure to enlarge it"
 ---
 {% include base_path %}
 
+I study how galaxies formed their stars in the first few billion years of the Universe. For each galaxy I want its star formation history, the stellar populations it contains and its stellar mass. None of these can be observed directly: they are inferred by fitting models to the galaxy's light, and a large part of my research is finding out how far that inference can be trusted. I am a postdoctoral researcher at the Max Planck Institute for Astronomy in Heidelberg, where I work with Anna de Graaff on the ERC-funded FIRST-GIANTS project. Before that I did my PhD with Christopher Conselice and Nathan Adams at the Jodrell Bank Centre for Astrophysics in Manchester.
 
+## How much mass, how early?
 
+Soon after JWST launched, several teams reported galaxies in the early Universe that looked too massive to have formed in the time available. For my first PhD project I built a sample of 1,120 candidate galaxies at redshifts 6.5 to 13.5 from NIRCam imaging of PEARLS and the public surveys, and fitted their spectral energy distributions (SEDs) many times over, changing one modelling assumption at a time: the star formation history, the dust law, the priors, the fitting code.
 
-## PhD Research
+The choice of star formation history matters most. Swapping a standard parametric history for a flexible one raises the cosmic stellar mass density at z = 10.5 by 0.75 dex, a factor of about five. Even so, we found no conflict between the measured masses and standard cosmological models. The figure below shows the stellar mass density against simulations and earlier measurements. The paper is [EPOCHS IV]({{ base_path }}/publication/epochsiv), published in ApJ.
 
-I am currently studying for a PhD at the Jodrell Bank Centre for Astrophysics, part of the University of Manchester. My supervisors are Professor Christopher Conselice and Dr. Nathan Adams.
-My research involves using the James Webb Space Telescope to study galaxies in the early universe. I am particularly interested in the growth of stellar mass in the first galaxies.
+![Cosmic stellar mass density at redshifts 6.5 to 13.5, compared with simulations]({{ base_path }}/images/papers/smd.png)
 
-My research interests include:
+## Looking inside early galaxies
 
-- The formation and evolution of galaxies in the early Universe and their statistical properties
-- The growth of stellar mass in galaxies
-- The use of spectral energy distribution (SED) fitting techniques to study the stellar populations of galaxies
-- Resolved studies of high-redshift galaxies using high-resolution imaging
-- The use of machine learning techniques to accelerate robust inference of galaxy properties
+A galaxy that has just formed a burst of young stars is dominated by their light. The older stars, which hold most of the mass, are still there but contribute little to the total, so a fit to the whole galaxy can miss them. This is called outshining.
 
-My first PhD project used data from the James Webb Space Telescope to study the stellar mass growth of galaxies in the first billion years of the Universe. I used NIRCam and HST imaging from a variety of public surveys to construct a robust sample of high-redshift galaxies, and used SED fitting techniques to estimate their stellar masses and star formation histories. From this, I was able to estimate the galaxy stellar mass function (GSMF) and the cosmic stellar mass density (CSMD, shown below) at these early epochs, and compare them to the predictions of cosmological simulations. This work was published in [The Astrophysical Journal](https://iopscience.iop.org/article/10.3847/1538-4357/ad8c29).
+JWST resolves galaxies at these distances into many pixels, so the fit can be done region by region. I wrote [EXPANSE](https://github.com/tHarvey303/EXPANSE) to do this, and applied it to more than 200 galaxies at z ≥ 4.5 in the JADES Origins Field, which has imaging in 19 bands. Low-mass galaxies with bursty star formation come out typically 1.25 to 2.5 times more massive when resolved, and more than ten times in individual cases. The paper is [Behind the spotlight]({{ base_path }}/publication/outshining), published in MNRAS.
 
-![Stellar Mass Density](http://www.thomas-harvey.com/images/papers/smd.png)
+![Stellar mass from resolved fits against the integrated fit, for four ways of binning pixels]({{ base_path }}/images/papers/outshining_mass_comparison.png)
 
-More recently I have been working on resolved studies of $$ z \sim 6-10 $$ galaxies using the high-resolution imaging from the James Webb Space Telescope. Galaxies at these EPOCHS are often small and compact, but JWST allows us to resolve their stellar populations and study their properties in detail. I developed a software package called [EXPANSE](https://github.com/tHarvey303/EXPANSE) to perform binned and pixel-by-pixel SED fitting analysis of galaxies to characterise spatial variations in their stellar populations. This allows us to study the star formation histories of galaxies in detail. In the first paper I focused on investigating 'outshining', where the light from a young starburst can outshine the older stellar populations in a galaxy, making it difficult to estimate the stellar mass. Resolved studies can help us to disentangle these effects and provide a more accurate estimate of the stellar mass. This work was submitted to MNRAS and is available on [ADS](https://ui.adsabs.harvard.edu/abs/2025arXiv250405244H/).
+I am now building [arachne](https://github.com/tHarvey303/arachne), which replaces the stellar population model with a neural emulator so that a whole multi-band image, including the telescope's point spread function, can be forward-modelled on a GPU.
 
-## Master's Research
+![arachne fitting a catalogue, separate light components, and maps of mass, dust and age]({{ base_path }}/images/papers/arachne_frontpage.png)
 
-My master's research was undertaken at the High-Energy Astrophysics Division (HEAD) of the Harvard-Smithsonian Center for Astrophysics. My supervisor was Dr. W. Peter Maksym. I studied the interactions between AGN (supermassive central black holes) and their host galaxies, using data from across the electromagnetic spectrum.
+## Inference at survey scale
 
-Most galaxies are thought to have a central black hole that is millions to billions of times the mass of the Sun. This solar system size object can have an incredibly large influence on the evolution of the entire galaxy, through jets, outflows and winds. Often light from AGN can outshine the rest of the galaxy altogether! AGN can look wildly different depending on the angle we view them at, and they were once thought to be many different objects, but there is now a <b>Unified Model</b>, that ties all of our theories together. You can read more about it [here](https://www.thomas-harvey.com/posts/2021/AGN/)
+Fitting one galaxy with nested sampling takes minutes to hours. Euclid and Roman will observe more galaxies than that approach can handle.
 
-I used data from the Chandra and Hubble telescopes, which work in the x-ray and optical respectively, although I have used NuSTAR and VLA data as well for comparisons. I work with both images and spectroscopy to characterise both the location and spectral shape of the emission, which can be modelled to provide insight into the physical parameters describing the AGN and surrounding material, such as the amount of obscuration (column density), gas temperature and the viewing angle.
-<h2>NGC 5972</h2>
+[synference](https://synthesizer-project.github.io/synference/) uses simulation-based inference instead. A neural network is trained once on a large set of simulated galaxies made with [Synthesizer](https://synthesizer-project.github.io), and afterwards returns the full posterior for a new galaxy in a fraction of a second. In the release paper we fitted 3,088 spectroscopically confirmed galaxies in about three minutes on one CPU, roughly 1,700 times faster than nested sampling, with posteriors that agree with it. The paper is [published in MNRAS]({{ base_path }}/publication/synference).
 
-![NGC_6972_Hubble](http://www.thomas-harvey.com/images/ngc597_hubble_small.jpg)
+![Inference time per galaxy for synference and for conventional SED-fitting codes]({{ base_path }}/images/papers/synference_speed.png)
 
-  <h2> AAS HEAD Abstract 2022 (Poster) </h2>
+## The brightest galaxies, with Euclid
 
-<b> Signatures of AGN feedback in the spectacular extended emission line region of NGC 5972 <b>
+JWST observes very deep but over a small area, so the brightest and rarest early galaxies are mostly absent from its surveys. The Euclid Deep Fields cover about 53 square degrees in the near-infrared, roughly a hundred times the area of the largest JWST survey. As a member of the Euclid Consortium I am searching them for luminous galaxies at z > 7, to measure the bright end of the ultraviolet luminosity function.
 
-<i>T. Harvey, W. Maksym, W. Keel</i>
+At Euclid's depth and resolution, a galaxy at z > 7 and a cool brown dwarf in our own Galaxy can have nearly the same colours. Much of the work is separating the two and measuring how complete the search is. I wrote [BD-Finder](https://github.com/tHarvey303/BD-Finder) for the first of those.
 
+## Massive galaxies and black holes
 
-Large clouds of ionised gas far from AGN, known as Extended Emission Line Regions (EELRs), promise a novel tool for getting a handle on the kiloyear timescale behavior of AGN accretion. These clouds are often considered as quasar light echoes, because their emission states can encode the AGN luminosity history over the past 100,000 years. AGN with current luminosity below the required luminosity to ionise the EELR are known as "fading AGN". However sometimes they can be spoofed by an obscured AGN with high column density, which are themselves important laboratories for studying AGN feedback. NGC 5972 contains the most extended known EELR and was thought to be a faded AGN, but new x-ray luminosity estimates from NuSTAR and Chandra observations suggest a higher bolometric luminosity consistent with no recent fade in AGN output.
+At MPIA I am working on how the most massive galaxies in the early Universe formed, and on what the galaxies we see at later times looked like earlier on. I am also a co-author on work showing that JWST's "little red dots" are young supermassive black holes cocooned in dense ionised gas, [published in Nature]({{ base_path }}/publication/jwst-little-red-dots).
 
-We will present a new analysis of 3 Chandra observations of NGC 5972, totalling 50ks, which take advantage of Chandra's sub-arcsecond angular resolution to analyse spectra, luminosity and potential spatial distribution of hot gas within the galaxy. By comparison to Chandra PSF simulations we determine that the soft (< 3keV) emission are spatially extended and show correlation with the HST [OIII] features, including the galaxy-scale EELR and an arcsecond scale nuclear bubble. We are investigating the role of the AGN, jets and possible winds in exciting these features. This will help us understand the processes that can falsify fading AGN via EELRs, and allow us to reexamine the “light echo” luminosity history of this galaxy. This work is supported by Chandra grant GO8-19096X.
+My interest in black holes goes back to my Master's year at the Center for Astrophysics, Harvard & Smithsonian, where I worked with Peter Maksym. NGC 5972 is a nearby galaxy surrounded by a cloud of ionised gas larger than the galaxy itself. The cloud is lit by a quasar at the centre that has since faded: its output has dropped by more than a factor of a hundred in the last 50,000 years. Using Chandra X-ray and Hubble observations, I studied how outflows from the black hole heat that gas. The paper is [published in MNRAS]({{ base_path }}/publication/ngc5972_feedback), and there is a [short introduction to active galaxies]({{ base_path }}/posts/2021/AGN/) on the blog.
 
+![Hubble image of NGC 5972 and its extended emission-line region]({{ base_path }}/images/ngc597_hubble_small.jpg)
 
+## Telescope time
 
+</div>
 
+{% include ledger-proposals.html %}
 
+<div class="prose" markdown="1" style="margin-top:2em">
 
+The full list of papers is on the [publications page]({{ base_path }}/publications/), and the code is on the [software page]({{ base_path }}/software/).

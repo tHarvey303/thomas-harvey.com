@@ -1,0 +1,13 @@
+<div class="ledger" style="--cols:9.5rem 8.5rem 1fr">
+  <div class="head"><span>Instrument</span><span>Role</span><span>What it does</span></div>
+  {% for s in include.items %}
+    {% if s.more %}
+      <details class="row"><summary><span><a href="{{ s.url }}">{{ s.name }}</a></span><span class="h">{{ s.role }}</span><span>{{ s.text }}</span></summary>
+        <div class="more">{{ s.more | markdownify }}
+          <p class="type"><a href="{{ s.url }}">Repository</a>{% if s.docs %} · <a href="{{ s.docs }}">Documentation</a>{% endif %}{% if s.demo %} · <a href="{{ s.demo }}">Live demo</a>{% endif %}{% if s.paper %} · <a href="{{ base_path }}{{ s.paper }}">Paper</a>{% endif %}</p>
+        </div></details>
+    {% else %}
+      <div class="row"><span><a href="{{ s.url }}">{{ s.name }}</a></span><span class="h">{{ s.role }}</span><span>{{ s.text }}</span></div>
+    {% endif %}
+  {% endfor %}
+</div>

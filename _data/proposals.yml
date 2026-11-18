@@ -1,0 +1,31 @@
+# Accepted observing proposals, newest first. role: PI or Co-I.
+
+- facility: NOEMA
+  id: W26FB
+  role: PI
+  year: 2026
+  title: "Dust, gas, and resolved structure in the most distant galaxy detected by NOEMA"
+
+- facility: NOEMA
+  id: S26DD
+  role: PI
+  year: 2026
+  title: "Confirming the most distant galaxy-galaxy lens: [CII] spectroscopy of a quadruply-imaged galaxy at z ~ 8"
+
+- facility: Roman
+  id: GA 2001
+  role: Co-I
+  year: 2026
+  title: "Roman eXtreme Deep Field (RXDF): transformative science at Roman's limit"
+
+- facility: JWST
+  id: GO 9969
+  role: Co-I
+  year: 2026
+  title: "EXTREME: EXploiting TRansients of Extremely Magnified Events"
+
+- facility: JWST
+  id: GO 11286
+  role: Co-I
+  year: 2026
+  title: "The Euclid–JWST Synergy: Revealing the Nature of Extremely Luminous z ~ 9 Galaxies"

@@ -1,0 +1,8 @@
+{% assign d = include.doc %}{% assign body = d.content | strip_html | strip %}
+<article class="card"{% if body != "" %} data-expand{% endif %}>
+  <div class="call"><span>TH · {{ d.date | date: "%y.%m" }}</span><span>{{ d.date | date: "%b %Y" }}</span></div>
+  <h3>{{ d.title }}</h3>
+  <p>{{ d.authors_short | default: "Harvey, T. et al." }} — {{ d.venue }}{% if d.role %} ({{ d.role }}){% endif %}</p>
+  <p class="lk">{% if d.paperurl %}<a href="{{ d.paperurl }}">journal</a>{% endif %}{% if d.arxiv %}<a href="https://arxiv.org/abs/{{ d.arxiv }}">arXiv</a>{% endif %}{% if d.code %}<a href="{{ d.code }}">code</a>{% endif %}{% if d.data %}<a href="{{ d.data }}">data</a>{% endif %}<a href="{{ base_path }}{{ d.url }}">page</a></p>
+  {% if body != "" %}<details><summary>abstract</summary><div class="more">{{ d.content }}</div></details>{% endif %}
+</article>

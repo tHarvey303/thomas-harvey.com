@@ -2,7 +2,7 @@
 title: JWST’s view on star formation and mass growth in early galaxies
 collection: talks
 type: "Colloqium"
-permalink: /talks/firstgalaxies
+permalink: /talks/unicid2025
 venue: "Núcleo de Astrofísica"
 date: 2025-06-17
 location: "Universidade Cidade de São Paulo,  São Paulo, Brazil"

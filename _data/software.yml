@@ -1,0 +1,96 @@
+# Software ledger. `more` (optional, Markdown) is shown when the row is clicked.
+# `home: true` rows also appear on the home page.
+
+- name: arachne
+  role: author
+  url: https://github.com/tHarvey303/arachne
+  home: true
+  text: "JAX-native SED fitting and image-level forward modelling: neural emulators of stellar-population models, run on a GPU for catalogues or resolved images."
+  more: >-
+    arachne trains fast neural emulators of stellar-population-synthesis photometry and uses them for
+    GPU-accelerated Bayesian inference: one integrated SED, a catalogue of thousands of galaxies, or a
+    spatially resolved multi-band image with PSF convolution. The pipeline is pure JAX, so it is
+    differentiable end to end. In development.
+
+- name: synference
+  role: lead developer
+  url: https://github.com/synthesizer-project/synference
+  docs: https://synthesizer-project.github.io/synference/
+  paper: /publication/synference
+  home: true
+  text: "Simulation-based inference for SED fitting, trained on Synthesizer forward models."
+  more: >-
+    A Python framework for SED fitting with simulation-based inference, which combines the speed of
+    machine learning with Bayesian statistics to speed up inference by 10³–10⁵ times compared with
+    conventional sampling. It uses Synthesizer to build realistic forward models, so it can be trained for
+    any combination of stellar population models, star formation histories and instruments.
+
+- name: EXPANSE
+  role: author
+  url: https://github.com/tHarvey303/EXPANSE
+  paper: /publication/outshining
+  home: true
+  text: "Resolved SED fitting of galaxy images, binned or pixel by pixel, with an interactive viewer."
+  more: >-
+    A Python package for flexible resolved SED fitting and analysis, including PSF matching, several
+    binning schemes, morphological fitting and an interactive viewer. Available on PyPI as
+    `astro-expanse`.
+
+- name: synthesizer
+  role: core contributor
+  url: https://github.com/synthesizer-project/synthesizer
+  docs: https://synthesizer-project.github.io
+  home: true
+  text: "Synthetic galaxy and AGN observables from simulations and parametric models."
+  more: >-
+    Synthesizer creates synthetic observables (spectra, photometry, imaging and IFU data cubes) from
+    simulations and simple parametric models. It is designed to be fast and flexible. The release paper
+    is published in JOSS.
+
+- name: galfind
+  role: co-developer
+  url: https://github.com/duncanaustin98/galfind
+  home: true
+  text: "Automated catalogue creation, galaxy selection and SED fitting. With Duncan Austin."
+  more: >-
+    A pipeline that produces catalogues from raw imaging, measures local noise, runs SED fitting with
+    several tools, filters catalogues, and estimates distribution functions such as the UV luminosity
+    function or stellar mass function.
+
+- name: SkySim
+  role: author
+  url: https://github.com/tHarvey303/skysim
+  demo: https://skysim.tharvey.space
+  home: true
+  text: "Fast simulator of realistic mock survey images, with a live web demo."
+  more: >-
+    Generates mock sky images with galaxies, stars and telescope effects, from catalogue generation
+    through to noisy detector images, in seconds on a single CPU. Built on JAX and Synthesizer.
+
+- name: spikeout
+  role: author
+  url: https://github.com/tHarvey303/spikeout
+  text: "Detects, measures and masks diffraction spikes in astronomical images."
+
+- name: BD-Finder
+  role: author
+  url: https://github.com/tHarvey303/BD-Finder
+  text: "Brown-dwarf template fitting, to keep cool stars out of high-redshift samples."
+
+- name: Source Classifier
+  role: author
+  url: https://github.com/tHarvey303/classifier
+  text: "Self-hosted web app for teams to vet image cutouts by eye."
+
+- name: galrag
+  role: author
+  url: https://github.com/tHarvey303/galrag
+  text: "Citation-verifiable search over the galaxy-evolution literature for LLM clients."
+
+- name: FITS Table Viewer
+  role: author
+  url: https://github.com/tHarvey303/fitstableview
+  text: "A VS Code extension for browsing tabular FITS files."
+  more: >-
+    An interactive viewer for single and multi-extension tabular FITS files inside VS Code. Data
+    streaming supports large files, and columns can be filtered and sorted.

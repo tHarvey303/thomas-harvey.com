@@ -20,7 +20,7 @@ The James Webb Space Telescope (JWST), launched in 2022, has continued the Hubbl
 In September 2024, JWST performed its own observations of one of the HFF clusters, Abell S1063, resulting in one of the deepest images taken by JWST during the almost week-long integration. This galaxy cluster, first identified by [1], is a gravitational lensing cluster at redshift z = 0.39. This means the light from the central object you see in Figure 1 has been travelling for around 4.3 billion years to reach us! The cluster dominates the center of the below image, and the majority of the white-coloured galaxies are members of the cluster, which contains thousands of individual galaxies. The diffuse yellow/green light comes from the intracluster medium, which is a superheated plasma of hydrogen and helium that reaches extreme temperatures of hundreds of millions of degrees. The red arcs are the lensed background galaxies themselves, which are actually normal looking galaxies which have been distorted by the gravitational lens. It is common to observe multiple images of the same lensed galaxy on opposite sides of the lens, and the time delay between the different images due to the different path lengths can be used to study cosmology and independently constrain measurements of e.g. the Hubble constant [4].
 
 
-> ![glimpse](http://www.thomas-harvey.com/images/GLIMPSE_RGB.jpg)
+> ![glimpse](/images/GLIMPSE_RGB.jpg)
 > Figure 1: False-color RGB color image of Abell S1063 using JWST’s NIRCam instrument. Data courtesy of the GLIMPSE team (PI’s Hakim Atek & John Chisholm, proposal ID 3293). RGB created by Thomas Harvey. 
 
 

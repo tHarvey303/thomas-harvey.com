@@ -1,0 +1,9 @@
+{% assign p = include.p %}{% assign doc = nil %}{% for d in site.publications %}{% if d.doi == p.doi %}{% assign doc = d %}{% endif %}{% endfor %}
+{% assign months = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec" | split: "," %}{% assign mi = p.month | minus: 1 %}{% assign yy = p.year | modulo: 100 %}
+<article class="card" data-expand>
+  <div class="call"><span>TH · {{ yy }}.{% if p.month < 10 %}0{% endif %}{{ p.month }}</span><span>{% if p.month > 0 %}{{ months[mi] }} {% endif %}{{ p.year }}</span></div>
+  <h3>{{ p.title | escape }}</h3>
+  <p>{{ p.authors }} — {{ p.journal }}</p>
+  <p class="lk">{% if p.doi %}<a href="{{ p.url }}">journal</a>{% endif %}{% if p.arxiv %}<a href="https://arxiv.org/abs/{{ p.arxiv }}">arXiv</a>{% endif %}{% if doc.code %}<a href="{{ doc.code }}">code</a>{% endif %}{% if doc.data %}<a href="{{ doc.data }}">data</a>{% endif %}{% if doc %}<a href="{{ base_path }}{{ doc.url }}">page</a>{% endif %}</p>
+  {% if p.abstract != "" %}<details><summary>abstract</summary><div class="more"><p>{{ p.abstract | escape }}</p></div></details>{% endif %}
+</article>

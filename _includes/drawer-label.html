@@ -1,0 +1,1 @@
+{% assign letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" %}{% assign label = include.fallback | default: "File" %}{% for link in site.data.navigation.main %}{% if page.url == link.url %}{% capture label %}Drawer {{ letters | slice: forloop.index0, 1 }}{% endcapture %}{% endif %}{% endfor %}<span class="type">{{ label }}</span>

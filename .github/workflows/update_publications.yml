@@ -1,0 +1,32 @@
+name: Update publications
+
+# Rebuilds _data/publications.json from the public ORCID record once a week,
+# and whenever it is started by hand from the Actions tab.
+on:
+  schedule:
+    - cron: "17 5 * * 1"
+  workflow_dispatch:
+  push:
+    paths:
+      - "_data/publications_extra.yml"
+      - "scripts/update_publications.py"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch publications from ORCID
+        run: python scripts/update_publications.py
+      - name: Commit if the list changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _data/publications.json
+          git diff --cached --quiet || (git commit -m "Update publication list from ORCID" && git push)

@@ -1,11 +1,14 @@
 ---
-title: "Behind the Spotlight: A systematic assessment of outshining using NIRCam medium-bands in the JADES Origins Field"
+title: "Behind the spotlight: a systematic assessment of outshining using NIRCam medium bands in the JADES Origins Field"
 collection: publications
 permalink: /publication/outshining
 excerpt: ''
-date: 2025-04-07
-venue: 'Submitted to MNRAS'
-paperurl: 'https://arxiv.org/abs/2504.05244'
+date: 2025-09-01
+venue: 'MNRAS'
+paperurl: 'https://doi.org/10.1093/mnras/staf1396'
+arxiv: '2504.05244'
+data: 'https://github.com/tHarvey303/EXPANSE'
+doi: '10.1093/mnras/staf1396'
 ---
 
 <h3>Behind the Spotlight: A systematic assessment of outshining using NIRCam medium-bands in the JADES Origins Field </h3>

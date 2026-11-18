@@ -1,0 +1,15 @@
+<div class="ledger" style="--cols:7rem 9.5rem 1fr">
+  <div class="head"><span>Date</span><span>Kind</span><span>Title and place</span></div>
+  {% assign shown = include.limit | default: 1000 %}
+  {% for t in include.items limit: shown %}
+    {% capture when %}{% if t.month_only %}{{ t.date | date: "%Y %b" }}{% else %}{{ t.date | date: "%Y %b %d" }}{% endif %}{% endcapture %}
+    {% capture what %}{{ t.title }} — {{ t.venue }}{% if t.location %}, {{ t.location | remove: "." }}{% endif %}{% endcapture %}
+    {% assign body = t.content | strip_html | strip %}
+    {% if body != "" %}
+      <details class="row"><summary><span>{{ when }}</span><span class="h">{{ t.type | downcase }}</span><span>{{ what }}</span></summary>
+        <div class="more">{{ t.content }}<p class="type"><a href="{{ base_path }}{{ t.url }}">Permanent link</a>{% if t.slidesurl %} · <a href="{{ t.slidesurl }}">Slides</a>{% endif %}</p></div></details>
+    {% else %}
+      <div class="row"><span>{{ when }}</span><span class="h">{{ t.type | downcase }}</span><span>{{ what }}</span></div>
+    {% endif %}
+  {% endfor %}
+</div>

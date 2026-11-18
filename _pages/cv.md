@@ -2,139 +2,99 @@
 layout: archive
 title: "CV"
 permalink: /cv/
-author_profile: true
 redirect_from:
   - /resume
+wide: true
 ---
-
 {% include base_path %}
 
+<div class="prose" markdown="1">
 
-Download my full CV as a PDF [here](http://www.thomas-harvey.com/files/CV_Academic.pdf).
+A PDF version is available [here]({{ base_path }}/files/CV_Academic.pdf).
 
-Education
-======
-* PhD Student at the Jodrell Bank Center for Astrophysics - University of Manchester <i>September 2022 - May 2026</i>
-  * Studying the first galaxies with Professor Christopher Conselice.
-* MPhys Astrophysics with a Year Abroad - University of Southampton, <i>September 2018 - July 2022 </i>
-  * Undertook a research year at the Harvard-Smithsonian Center for Astrophysics in Cambridge, MA.
-  *  Achieved a high first class degree with an average of 86.2% - achieving a Dean's Award and best academci achievement in first year.
-* Guernsey Grammar School and Sixth Form Centre, <i> September 2012 - June 2018 </i>
-  * <b>A Levels:</b>  Physics: A*, Further Maths: A, Maths: A, Computer Science (AS): B
-  * <b>GCSE's:</b> 5 A*'s, 6 A's and 1 B
+## Research experience
 
-Research Experience
-======
+**Max-Planck-Institut für Astronomie, Heidelberg** — Postdoctoral Researcher, *Sept. 2026 –*
+: Researching massive galaxy formation at high redshift with Dr. Anna de Graaff, as part of the ERC-funded FIRST-GIANTS project.
 
+**Jodrell Bank Centre for Astrophysics, University of Manchester** — Postdoctoral Researcher, *May – Aug. 2026*; PhD Researcher, *Sept. 2022 – March 2026*
+: Within the EPOCHS group, my PhD research focused on locating and characterising high-redshift galaxies in JWST imaging surveys.
+: Contributed to more than ten published papers in the EPOCHS series, including the foundational galaxy catalogues and selection criteria, and collaborated internationally as part of the JWST PEARLS GTO team on strong lensing searches, galaxy cluster studies and statistical studies of galaxies and AGN.
+: Helped to supervise and mentor undergraduate and Master's students, several of whose projects became student-led publications, and organised the journal club for the high-redshift group.
 
-* Jodrell Bank Centre for Astrophysics, University of Manchester _Sept. 2022 - March 2026_
-  * Working within the EPOCHS group, my PhD research has focused on  locating and characterizing high-redshift galaxies in imaging surveys using JWST. I've taken an active role in planning and executing my own research, and have a strong track record in first-author publications, as well as contributing to and publishing my own open-source software.
-  * Contributed to $>$10 published papers in the EPOCHS series, including helping to develop the foundational galaxy catalogues and selection criteria for the EPOCHS team. I've also engaged more widely as part of the JWST \textbf{PEARLS} GTO team, collaborating internationally on a variety of projects including strong lensing searches, galaxy cluster studies and statistical studies of galaxies and AGN. 
-  * At Manchester I have helped to supervise and mentor undergraduate and Master's students, many of which have resulted in student-lead publications. I also organize the journal club for the high-redshift group at Manchester as a way to keep up to date with new research.
+**Center for Astrophysics, Harvard & Smithsonian** — Visiting Research Fellow, *Sept. 2021 – May 2022*
+: Researched AGN feedback with Dr. W. Peter Maksym in Dr. P. Fabbiano's group, using Chandra and Hubble imaging and spectroscopy to study how AGN-driven jets and winds excite X-ray emission from gas in a complex galaxy.
 
+## Education
 
-* Harvard-Smithsonian Center for Astrophysics (CfA): <i>Sept 2021 - May 2022</i>
-  * Researching AGN feedback with Dr. W. Peter Maksym in Dr. P. Fabbiano's research group. My research focuses on the role of the AGN, jets and winds in exciting x-ray emission from gas clouds within NGC 5972, including a large extended line emission region. See [here](/research/) for more details.
-  *  Collaborating with other members of the research group to solve problems and advance the project, including participating in weekly group meetings. 
-  * Presenting a poster on my research to date at the AAS 239 conference in January, as well as delivering a talk to an CfA-wide colloquium in May 2022. The project might also lead to a paper to be published in MNRAS next year. 
-  * Participating in Harvard-MIT pre-doc journal club, and attending talks and colloquia given by divisions within the CfA and other related institutes such as the Black Hole Institute.
-* Observational Project: Mass and Electron Density of a Planetary Nebulae: <i> March - July 2020 </i>
-  *  Developed a method to determine the electron density of a planetary nebula from narrowband [SII] observations. 
-  *  Conducted remote observations using the IAC-80 telescope in Tenerife, and implemented a custom data reduction pipeline in Python to analyse the results. 
-  *  Produced an academic report in LaTeX which was graded at 94.4%.
-* Computational Project: Chandrasekhar Mass of White Dwarf's: <i> Feb - May 2021 </i>
-  * Derived the differential equations describing the radial dependence of mass and density within a white dwarf, and solved them numerically using Python to determine the maximum mass of a white dwarf for different elemental compositions.
-  * Wrote a full A&A style paper on the results, which received a mark of 96%. 
-  
-  
-Awards
-======
-* Dean’s List Award for Outstanding Achievement <i>2022</i>
-* Selected for flagship research year at the Harvard-Smithsonian Center for Astrophysics <i>2021</i>
-* Elected Fellow of the Royal Astronomical Society (FRAS) <i> 2020 </i>
-* Whittaker Trust Bursary Recipient <i> 2019 </i>
-* University of Southampton - Best Performance in Physics Part 1 (1st Year) <i> 2019 </i>
-* Guernsey Grammar School & Sixth Form R. Fulford Cup for Physics <i> 2018 </i>
+**PhD, Jodrell Bank Centre for Astrophysics, University of Manchester**, *Sept. 2022 – May 2026*
+: Early galaxy evolution with JWST, supervised by Prof. C. Conselice and Dr. N. Adams.
 
-Skills
-======
+**MPhys Astrophysics with a Year Abroad, University of Southampton**, *Sept. 2018 – July 2022*
+: First class degree with an average of 86.2%, a Dean's Award, and selection for a research year at the Center for Astrophysics, Harvard & Smithsonian.
 
-<i>Key Skills:</i> academic writing, problem solving, time-management, teamwork, and communication
+## Publications
 
-<i>Programming and Data Analysis:</i>  Python - NumPy, SciPy, matplotlib, pandas and AstroPy: photuils, ccdproc,specutils, reproject.
+{% assign pubs = site.data.publications %}{% assign n_first = pubs | where: "first_author", true | size %}
+{{ pubs | size }} publications, including {{ n_first }} as first author. See the [full list]({{ base_path }}/publications/).
 
-<i> Data Visualisation: </i>  matplotlib, bokeh, panel, holoviews, plotly
+## Collaborations
 
-<i> Astro Tools: </i> bagpipes, prospector, eazy-py, pPXF, jwst pipeline, specutils, photuils, sextractor
+- Euclid Consortium (full member)
+- PEARLS / SKYSURF JWST GTO team
 
-<i>  HPC and ML Tools: </i>  PyTorch, jax, sbi, LtU-ILI, scikit-learn, optuna, slurm 
+## Accepted proposals
 
-<i>Chandra Tools:</i>  Experience with Ciao, Sherpa, XSPEC, ds9, ChaRT and MARX.
+</div>
 
-<i>Academic Tools:</i>  LaTeX (Overleaf), BibTeX, Mendeley, arXiv and NASA ADS.
+{% include ledger-proposals.html %}
 
+<div class="prose" markdown="1" style="margin-top:2em">
 
-Software Development
-======
+## Talks and conference presentations
 
-**sbifitter**:Leading development of new Python package using simulation-based inference (SBI) to accelerate galaxy SED fitting.
+</div>
 
-[EXPANSE](https://github.com/tHarvey303/EXPANSE:) Lead developer of Python package for resolved SED-fitting of galaxies, including interactive GUI.
+{% assign talks = site.talks | sort: "date" | reverse %}
+{% include ledger-talks.html items=talks %}
 
-[GALFIND](https://github.com/duncanaustin98/galfind}) Co-developer of software pipeline for automated catalogue creation, galaxy selection and SED fitting. 
+<div class="prose" markdown="1" style="margin-top:2em">
 
-[BDFinder](https://github.com/tHarvey303/BD-Finder): Developed Python package to fit synthetic M, L, T, Y dwarf templates to photometric catalogs, and compute derived parameters such as distance, effective temperature and mass. 
+## Software development
 
-See more details [here.](/software])
+{% for s in site.data.software %}{% if s.home %}- [{{ s.name }}]({{ s.url }}) ({{ s.role }}): {{ s.text }}
+{% endif %}{% endfor %}
 
-Teaching and Supervision
-======
+## Awards
 
-* Graduate Teaching Assistant, University of Manchester _2022-_
-  * Lead GTA for Theory Computing Project module, teaching key scientific programming concepts and supporting semester-long group projects (PHYS20872).
-  * Ran Intro to Python programming support lab for undergraduate physics students (PHYS20161).
-  * Led small group tutorials covering undergraduate physics courses on astrophysics and maths (PHYS10071/10091).
+- Dean's List Award for Outstanding Achievement, *2022*
+- Selected for the flagship research year at the Harvard-Smithsonian Center for Astrophysics, *2021*
+- Elected Fellow of the Royal Astronomical Society (FRAS), *2020*
+- Inaugural Whittaker Trust Bursary recipient, *2019–2022*
+- University of Southampton: best performance in Physics Part 1, *2019*
+- Guernsey Grammar School & Sixth Form: R. Fulford Cup for Physics, *2018*
 
-Science Communication
-======
-* Regular appearances on local radio and TV to explain astronomical phenomena such as comets, eclipses and meteor showers to the general public and to encourage them to engage with astronomy.
-* Presented in person and online lectures on topics such as black holes, comets and Mars to members of the public, youth groups and school children. Answered questions and presented information appropriate for the audience. 
-* Wrote and edited articles on astronomy as editor of the newsletter for La Societe Guernesiaise Astronomy Section.
-* Taught telescope operation and information about the night sky and planets to the public at open evenings, as well as taking solar telescopes to local schools to teach the students about the Sun. 
+## Teaching, supervision and outreach
 
-Work Experience
-====
+**Graduate Teaching Assistant, University of Manchester**, *2022–2026*
+: Lead GTA for the Theory Computing Project module, teaching scientific programming and supporting semester-long group projects.
+: Ran the introductory Python support lab for undergraduate physics students.
+: Led small-group tutorials on undergraduate astrophysics and mathematics.
 
-First Central Insurance: <i>July 2019 - August 2019</i>
-* 6 week internship working collaboratively a full-stack developer within an agile scrum team, developing a web-based customer claims portal using C\# and WCF Services for the backend and HTML, CSS, and Javascript for the front-end.
-* Collaboratively developed a web-based platform for customers to view and edit vehicle insurance claim information, designed from the ground up to protect sensitive customer data.
+**Science communication**, *2018 –*
+: Public lectures to astronomical societies and schools. See [outreach]({{ base_path }}/outreach/).
+: Editor of the newsletter of La Société Guernesiaise Astronomy Section.
 
+## Community service
 
-[British Sign Language](british-sign.co.uk): <i> 2013 - Sept 2018 </i>
-* Designed and ran social media campaigns for an audience of  \textgreater 100k people across multiple social media platforms including Facebook and Twitter.
-* Created graphics including hundreds of sign language illustrations, crosswords and word-searches using Adobe Photoshop and Illustrator.
-* Programmed and deployed back-end tools including website optimisation and a text to animation system using FFMPEG. 
-* Designed 3D avatars and clothing for motion capture, recorded BSL signs using the "Perception Neuron" mocap system, and then edited the motion capture into useable sign language demonstration videos. 
+- SOC member, "Simulation Based Inference for Galaxy Evolution 2026"
+- Referee for Monthly Notices of the Royal Astronomical Society, *2025 –*
 
+## Skills
 
-Please see my CV for my references.
+- **Programming and data analysis:** Python (NumPy, SciPy, pandas, Astropy), Bayesian statistics
+- **Machine learning and HPC:** PyTorch, JAX, sbi, LtU-ILI, scikit-learn, Optuna, Slurm
+- **Astronomy tools:** Bagpipes, Prospector, eazy-py, pPXF, the JWST pipeline, specutils, photutils, SExtractor
+- **Visualisation:** matplotlib, bokeh, panel, holoviews, plotly
 
-<!--
-Science Communication
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
--->
+</div>

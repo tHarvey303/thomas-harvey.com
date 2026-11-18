@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Thomas Harvey"
 title_separator          : "-"
 name                     : &name "Thomas Harvey"
-description              : &description "PhD student at Jodrell Bank Center for Astrophysics, University of Manchester"
+description              : &description "Postdoctoral researcher at the Max Planck Institute for Astronomy, studying how galaxies in the early Universe formed their stars"
 url                      : https://thomas-harvey.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "tHarvey303/thomas-harvey.com"
@@ -89,12 +89,12 @@ analytics:
 author:
   name             : "About me"
   avatar           : "profile.JPG"
-  bio              : "PhD student at Jodrell Bank Center for Astrophysics, University of Manchester, studying early galaxies with JWST"
-  location         : "Manchester, UK"
-  employer         : "University of Manchester"
+  bio              : "Postdoctoral researcher at the Max Planck Institute for Astronomy, studying early galaxies with JWST and Euclid"
+  location         : "Heidelberg"
+  employer         : "Max Planck Institute for Astronomy"
   pubmed           : 
   googlescholar    :  https://scholar.google.com/citations?user=LIUd6PEAAAAJ&hl=en
-  email            :  thomas.harvey-3@postgrad.manchester.ac.uk
+  email            :  tomharvey@mpia.de
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -130,6 +130,9 @@ include:
   - _pages
   - files
 exclude:
+  - mockups
+  - cv.tex
+  - markdown_generator
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -194,6 +197,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  publications_2ndauthor:
+    output: true
+    permalink: /publication/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -249,6 +255,12 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _publications_2ndauthor
+  - scope:
+      path: ""
+      type: publications_2ndauthor
+    values:
+      layout: single
   # _portfolio
   - scope:
       path: ""

@@ -3,9 +3,12 @@ title: "EPOCHS IV: SED Modelling Assumptions and their impact on the Stellar Mas
 collection: publications
 permalink: /publication/epochsiv
 excerpt: ''
-date: 2024-03-06
-venue: 'ApJ, in press.'
+date: 2025-01-01
+venue: 'ApJ'
 paperurl: 'https://iopscience.iop.org/article/10.3847/1538-4357/ad8c29'
+arxiv: '2403.03908'
+data: 'https://github.com/tHarvey303/EpochsIV'
+doi: '10.3847/1538-4357/ad8c29'
 ---
 
 <h3>EPOCHS IV: SED Modelling Assumptions and their impact on the Stellar Mass Function at 6.5 < z < 13.5 using PEARLS and public JWST observations</h3>

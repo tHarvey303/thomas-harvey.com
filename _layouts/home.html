@@ -1,0 +1,84 @@
+---
+layout: default
+---
+{% assign h = site.data.home %}
+<div class="hero">
+  <div>
+    <div class="type" style="color:var(--stamp)">{{ h.opened }}</div>
+    <h1>{{ site.name }} <i>{{ h.tagline }}</i></h1>
+    <p>{{ h.intro | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+    {{ content }}
+    <div class="card" style="max-width:430px;transform:rotate(-.8deg)">
+      <div class="call"><span>{{ h.card.heading }}</span><span>{{ h.card.call }}</span></div>
+      <dl>{% for row in h.card.rows %}<dt>{{ row[0] }}</dt><dd>{{ row[1] }}</dd>{% endfor %}</dl>
+    </div>
+  </div>
+  {% include plate.html p=h.hero eager=true %}
+</div>
+
+<section id="research">
+  <div class="drawer"><span class="type">Drawer A</span><h2>Research</h2><span class="hand">click a plate to enlarge it</span></div>
+  <div class="cols">
+    <div>
+      <p style="margin-top:0">{{ h.research.lead | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      {% for t in h.research.topics %}
+        <div class="topic"{% if t.more %} data-expand{% endif %}>
+          <p><b>{{ t.title }}</b> {{ t.text | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+          {% if t.more %}<details><summary>more</summary><div class="more">{{ t.more | markdownify }}</div></details>{% endif %}
+        </div>
+      {% endfor %}
+      <p class="type more-link"><a href="{{ base_path }}/research/">More about my research →</a></p>
+    </div>
+    <div class="pair">
+      {% for p in h.research.plates %}{% include plate.html p=p %}{% endfor %}
+    </div>
+  </div>
+  <div class="charts">
+    {% for f in h.research.figures %}
+      <figure class="chart" tabindex="0"><img src="{{ base_path }}{{ f.image }}" alt="{{ f.alt }}" loading="lazy"><figcaption>{{ f.caption }}</figcaption></figure>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="publications">
+  <div class="drawer"><span class="type">Drawer B</span><h2>Publications</h2><span class="hand">click a card for the abstract</span></div>
+  <div class="cards">
+    {% assign first = site.data.publications | where: "first_author", true %}
+    {% for p in first %}{% include pub-card-data.html p=p %}{% endfor %}
+    {% assign highlights = site.publications_2ndauthor | sort: "date" | reverse %}
+    {% for doc in highlights %}{% include pub-card.html doc=doc %}{% endfor %}
+    {% assign n_all = site.data.publications | size %}
+    {% assign n_first = site.data.publications | where: "first_author", true | size %}
+    <div class="card"><div class="call"><span>See also</span><span>{{ n_all }} works</span></div>
+      <h3>{{ n_all }} publications in all, {{ n_first }} as first author</h3>
+      <p>the complete list is rebuilt weekly from arXiv and ORCID</p>
+      <p class="lk"><a href="{{ base_path }}/publications/">full list</a><a href="{{ site.author.orcid }}">ORCID</a><a href="{{ site.author.googlescholar }}">Scholar</a></p></div>
+  </div>
+</section>
+
+<section id="software">
+  <div class="drawer"><span class="type">Drawer C</span><h2>Software</h2><span class="hand">all public · click a row</span></div>
+  {% assign soft = site.data.software | where: "home", true %}
+  {% include ledger-software.html items=soft %}
+  <p class="type more-link"><a href="{{ base_path }}/software/">All software →</a></p>
+</section>
+
+<section id="talks">
+  <div class="drawer"><span class="type">Drawer D</span><h2>Talks</h2><span class="hand">logbook, recent entries</span></div>
+  {% assign talks = site.talks | sort: "date" | reverse %}
+  {% include ledger-talks.html items=talks limit=6 %}
+  <p class="type more-link"><a href="{{ base_path }}/talks/">All talks and the talk map →</a></p>
+</section>
+
+<section id="proposals">
+  <div class="drawer"><span class="type">Time awarded</span><h2>Accepted proposals</h2></div>
+  {% include ledger-proposals.html %}
+</section>
+
+<section id="plates">
+  <div class="drawer"><span class="type">Drawer E</span><h2>Plates</h2><span class="hand">my own astrophotography</span></div>
+  <div class="gallery">
+    {% for p in h.gallery %}{% include plate.html p=p %}{% endfor %}
+  </div>
+  <p class="type more-link"><a href="{{ base_path }}/astrophotography/">The stories behind them →</a></p>
+</section>
